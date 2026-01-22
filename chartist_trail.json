@@ -38,39 +38,39 @@
           "imageUrls": [],
           "communityContent": []
         },
-    {
-  "number": 3,
-  "title": "The Westgate Hotel",
-  "title_cy": "Gwesty'r Westgate",
-  "lat": 51.5876344,
-  "lng": -2.9965171,
-  "radiusMetres": 60,
-  "wixUrl": "https://www.newportrising.co.uk/digitaltrail",
-  "wixUrl_cy": "https://www.newportrising.co.uk/cy/digitaltrail",
-  "audioUrl": "",
-  "audioTranscript": "",
-  "audioTranscript_cy": "",
-  "audioFiles": [
-    {
-      "title": "Benji's Story",
-      "title_cy": "Stori Benji",
-      "description": "Growing up near the Westgate",
-      "description_cy": "Tyfu i fyny ger y Westgate",
-      "url": "https://static.wixstatic.com/mp3/cb410a_20669c75c2e24d5f9283591e3618eda7.mp3"
-    }
-  ],
-  "videoUrl": "https://video.wixstatic.com/video/cb410a_026a5c1f50d14e7ab8de577a65ab4920/720p/mp4/file.mp4",
-  "imageUrls": [
-    "https://static.wixstatic.com/media/cb410a_4c64f1f769f541e29c92ee45fb1ff3fb~mv2.jpg"
-  ],
-  "communityContent": [
-    {"imageUrl": "https://static.wixstatic.com/media/cb410a_a1283838951c447893abbb5aad6ad5dc~mv2.jpg"},
-    {"imageUrl": "https://static.wixstatic.com/media/cb410a_236372f2ff704f3b84832c527dcb706b~mv2.jpeg"},
-    {"imageUrl": "https://static.wixstatic.com/media/cb410a_c7685c1abe8b480dbde0d6006d342590~mv2.jpeg"},
-    {"imageUrl": "https://static.wixstatic.com/media/cb410a_55b2d7ff778c4e828bd5925f0be20956~mv2.jpg"},
-    {"imageUrl": "https://static.wixstatic.com/media/cb410a_8493ae9244544f04a021675ef919e442~mv2.jpeg"}
-  ]
-},
+        {
+          "number": 3,
+          "title": "The Westgate Hotel",
+          "title_cy": "Gwesty'r Westgate",
+          "lat": 51.5876344,
+          "lng": -2.9965171,
+          "radiusMetres": 60,
+          "wixUrl": "https://www.newportrising.co.uk/digitaltrail",
+          "wixUrl_cy": "https://www.newportrising.co.uk/cy/digitaltrail",
+          "audioUrl": "",
+          "audioTranscript": "",
+          "audioTranscript_cy": "",
+          "audioFiles": [
+            {
+              "title": "Benji's Story",
+              "title_cy": "Stori Benji",
+              "description": "Growing up near the Westgate",
+              "description_cy": "Tyfu i fyny ger y Westgate",
+              "url": "https://static.wixstatic.com/mp3/cb410a_20669c75c2e24d5f9283591e3618eda7.mp3"
+            }
+          ],
+          "videoUrl": "https://video.wixstatic.com/video/cb410a_026a5c1f50d14e7ab8de577a65ab4920/720p/mp4/file.mp4",
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_4c64f1f769f541e29c92ee45fb1ff3fb~mv2.jpg"
+          ],
+          "communityContent": [
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_a1283838951c447893abbb5aad6ad5dc~mv2.jpg"},
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_236372f2ff704f3b84832c527dcb706b~mv2.jpeg"},
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_c7685c1abe8b480dbde0d6006d342590~mv2.jpeg"},
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_55b2d7ff778c4e828bd5925f0be20956~mv2.jpg"},
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_8493ae9244544f04a021675ef919e442~mv2.jpeg"}
+          ]
+        },
         {
           "number": 4,
           "title": "Mullock - A Witness",
