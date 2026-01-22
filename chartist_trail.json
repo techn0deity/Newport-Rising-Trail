@@ -19,7 +19,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 2,
@@ -34,7 +35,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 3,
@@ -49,7 +51,13 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [https://static.wixstatic.com/media/cb410a_4c64f1f769f541e29c92ee45fb1ff3fb~mv2.jpg]
+          "imageUrls": ["https://static.wixstatic.com/media/cb410a_4c64f1f769f541e29c92ee45fb1ff3fb~mv2.jpg"],
+          "communityContent": [
+            {
+              "text": "Amazing visit to the Westgate Hotel - you can still see the bullet holes!",
+              "author": "Sarah T., Newport"
+            }
+          ]
         },
         {
           "number": 4,
@@ -64,7 +72,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 5,
@@ -79,7 +88,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 6,
@@ -94,7 +104,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 7,
@@ -109,7 +120,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 8,
@@ -124,7 +136,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 9,
@@ -139,7 +152,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 10,
@@ -154,7 +168,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 11,
@@ -169,7 +184,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 12,
@@ -184,7 +200,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 13,
@@ -199,7 +216,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 14,
@@ -214,7 +232,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 15,
@@ -229,7 +248,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 16,
@@ -244,7 +264,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 17,
@@ -259,7 +280,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 18,
@@ -274,7 +296,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 19,
@@ -289,7 +312,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 20,
@@ -304,7 +328,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         },
         {
           "number": 21,
@@ -319,7 +344,8 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": []
+          "imageUrls": [],
+          "communityContent": []
         }
       ]
     }
