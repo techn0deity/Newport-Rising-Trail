@@ -41,7 +41,7 @@
           "radiusMetres": 60,
           "wixUrl": "https://www.newportrising.co.uk/digitaltrail",
           "wixUrl_cy": "https://www.newportrising.co.uk/cy/digitaltrail",
-          "audioUrl": "https://static.wixstatic.com/mp3/cb410a_20669c75c2e24d5f9283591e3618eda7.mp3",
+          "audioUrl": "",
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
@@ -106,7 +106,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_f533d68d896b4d15bd10378a3b814826~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_70e5ee406f784017b81cac2e083e7445~mv2.png"
+            
+          ],
           "communityContent": []
         },
         {
@@ -127,7 +131,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_2d082f25c4db498796c7857eacaee551~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -148,7 +155,9 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_ba4904dd5bb245bd95e66adfb2c4458c~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -169,7 +178,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_4c1e5f7de6314bc6993d259a63c2fe91~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -190,7 +202,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_d84bc025c6cd41c899490f9a85080531~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -211,7 +226,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_9d727112ec5c4f9dbaddfdec06090257~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -232,7 +250,9 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_816094ce665842ef8995f735d5e6f018~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -253,7 +273,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_7e824e5d2a2d426fb2048286476bbda3~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -274,7 +297,10 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_59a42044e7a04ef0bd3e344a9750fc74~mv2.png"
+          ],
           "communityContent": []
         },
         {
@@ -294,8 +320,17 @@
           "audioUrl": "https://static.wixstatic.com/mp3/cb410a_1dda2122b33e4bb1bcf011e73a60510b.mp3",
           "audioTranscript": "",
           "audioTranscript_cy": "",
-          "videoUrl": "",
-          "imageUrls": [],
+          "videoUrl": "https://video.wixstatic.com/video/cb410a_04cc4892af4748c587fcb07ba366617f/1080p/mp4/file.mp4"
+          "https://video.wixstatic.com/video/cb410a_f93088b731e24a64a536c1bd72795253/1080p/mp4/file.mp4",
+          "imageUrls": [
+
+            "https://static.wixstatic.com/media/cb410a_e4887fbb86fc4d6aa8fc3bf00e9178ef~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_50b1a5001e57408ba0e13857e6b0864e~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_e0670d54f9be4cd4afca1b88e6d5e26e~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_856449f3b1b9402594d0e20cb78d7398~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_6c3d33427cfc4054816d61d62ff795e4~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_4858a9dc45ed4267914f88a4fab2d48f~mv2.jpg"
+          ],
           "communityContent": []
         },
         {
@@ -312,7 +347,7 @@
           "radiusMetres": 60,
           "wixUrl": "https://www.newportrising.co.uk/digitaltrail",
           "wixUrl_cy": "https://www.newportrising.co.uk/cy/digitaltrail",
-          "audioUrl": "",
+          "audioUrl": "https://static.wixstatic.com/mp3/cb410a_1dda2122b33e4bb1bcf011e73a60510b.mp3",
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
