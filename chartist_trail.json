@@ -350,7 +350,7 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": ["https://static.wixstatic.com/media/cb410a_0bd7941232854b7fbb02f835df0f3fe4~mv2.png"],
           "communityContent": []
         },
         {
@@ -371,7 +371,7 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": ["https://static.wixstatic.com/media/cb410a_37387b2b70e74e03a566f972efeaa40c~mv2.png"],
           "communityContent": []
         },
         {
@@ -393,7 +393,7 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": ["https://static.wixstatic.com/media/cb410a_ddd4a8b6800347be96224a7ca579c8f9~mv2.png"]
         },
         {
           "number": 17,
