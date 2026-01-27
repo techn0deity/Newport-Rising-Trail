@@ -107,7 +107,7 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-            "https://static.wixstatic.com/media/cb410a_f533d68d896b4d15bd10378a3b814826~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_f533d68d896b4d15bd10378a3b814826~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_70e5ee406f784017b81cac2e083e7445~mv2.png"
             
           ],
@@ -323,11 +323,11 @@
           "videoUrl": "https://video.wixstatic.com/video/cb410a_04cc4892af4748c587fcb07ba366617f/1080p/mp4/file.mp4",
           "imageUrls": [
 
-            "https://static.wixstatic.com/media/cb410a_e4887fbb86fc4d6aa8fc3bf00e9178ef~mv2.jpg"
-            "https://static.wixstatic.com/media/cb410a_50b1a5001e57408ba0e13857e6b0864e~mv2.jpg"
-            "https://static.wixstatic.com/media/cb410a_e0670d54f9be4cd4afca1b88e6d5e26e~mv2.jpg"
-            "https://static.wixstatic.com/media/cb410a_856449f3b1b9402594d0e20cb78d7398~mv2.jpg"
-            "https://static.wixstatic.com/media/cb410a_6c3d33427cfc4054816d61d62ff795e4~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_e4887fbb86fc4d6aa8fc3bf00e9178ef~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_50b1a5001e57408ba0e13857e6b0864e~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_e0670d54f9be4cd4afca1b88e6d5e26e~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_856449f3b1b9402594d0e20cb78d7398~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_6c3d33427cfc4054816d61d62ff795e4~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_4858a9dc45ed4267914f88a4fab2d48f~mv2.jpg"
           ],
           "communityContent": []
