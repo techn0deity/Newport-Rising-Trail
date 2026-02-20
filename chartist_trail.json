@@ -27,7 +27,8 @@
           "imageUrls": [
             "https://static.wixstatic.com/media/cb410a_189f10df155e4644991bc1ceede2f625~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 2,
@@ -50,7 +51,8 @@
           "imageUrls": [
             "https://static.wixstatic.com/media/cb410a_8ccd50ad09e04f0aa3ab34e047d51a37~mv2.jpg"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 3,
@@ -88,7 +90,8 @@
             {"imageUrl": "https://static.wixstatic.com/media/cb410a_c7685c1abe8b480dbde0d6006d342590~mv2.jpeg"},
             {"imageUrl": "https://static.wixstatic.com/media/cb410a_55b2d7ff778c4e828bd5925f0be20956~mv2.jpg"},
             {"imageUrl": "https://static.wixstatic.com/media/cb410a_8493ae9244544f04a021675ef919e442~mv2.jpeg"}
-          ]
+          ],
+          "credits": ""
         },
         {
           "number": 4,
@@ -111,9 +114,9 @@
           "imageUrls": [
             "https://static.wixstatic.com/media/cb410a_f533d68d896b4d15bd10378a3b814826~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_70e5ee406f784017b81cac2e083e7445~mv2.png"
-            
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 5,
@@ -134,10 +137,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_2d082f25c4db498796c7857eacaee551~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 6,
@@ -160,7 +163,8 @@
           "imageUrls": [
             "https://static.wixstatic.com/media/cb410a_ba4904dd5bb245bd95e66adfb2c4458c~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 7,
@@ -181,10 +185,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_4c1e5f7de6314bc6993d259a63c2fe91~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 8,
@@ -205,10 +209,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_d84bc025c6cd41c899490f9a85080531~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 9,
@@ -229,10 +233,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_9d727112ec5c4f9dbaddfdec06090257~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 10,
@@ -255,7 +259,8 @@
           "imageUrls": [
             "https://static.wixstatic.com/media/cb410a_816094ce665842ef8995f735d5e6f018~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 11,
@@ -276,10 +281,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_7e824e5d2a2d426fb2048286476bbda3~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 12,
@@ -300,10 +305,10 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_59a42044e7a04ef0bd3e344a9750fc74~mv2.png"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 13,
@@ -324,7 +329,6 @@
           "audioTranscript_cy": "",
           "videoUrl": "https://video.wixstatic.com/video/cb410a_04cc4892af4748c587fcb07ba366617f/1080p/mp4/file.mp4",
           "imageUrls": [
-
             "https://static.wixstatic.com/media/cb410a_e4887fbb86fc4d6aa8fc3bf00e9178ef~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_50b1a5001e57408ba0e13857e6b0864e~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_e0670d54f9be4cd4afca1b88e6d5e26e~mv2.jpg",
@@ -332,7 +336,8 @@
             "https://static.wixstatic.com/media/cb410a_6c3d33427cfc4054816d61d62ff795e4~mv2.jpg",
             "https://static.wixstatic.com/media/cb410a_4858a9dc45ed4267914f88a4fab2d48f~mv2.jpg"
           ],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 14,
@@ -352,8 +357,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": ["https://static.wixstatic.com/media/cb410a_0bd7941232854b7fbb02f835df0f3fe4~mv2.png"],
-          "communityContent": []
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_0bd7941232854b7fbb02f835df0f3fe4~mv2.png"
+          ],
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 15,
@@ -373,8 +381,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": ["https://static.wixstatic.com/media/cb410a_37387b2b70e74e03a566f972efeaa40c~mv2.png"],
-          "communityContent": []
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_37387b2b70e74e03a566f972efeaa40c~mv2.png"
+          ],
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 16,
@@ -393,9 +404,12 @@
           "audioUrl": "",
           "audioTranscript": "",
           "audioTranscript_cy": "",
-          "videoUrl": "",
+          "videoUrl": "https://youtu.be/pkfk5lkvJ0g",
           "imageUrls": [],
-          "communityContent": ["https://static.wixstatic.com/media/cb410a_ddd4a8b6800347be96224a7ca579c8f9~mv2.png"]
+          "communityContent": [
+            {"imageUrl": "https://static.wixstatic.com/media/cb410a_ddd4a8b6800347be96224a7ca579c8f9~mv2.png"}
+          ],
+          "credits": ""
         },
         {
           "number": 17,
@@ -416,7 +430,8 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 18,
@@ -437,7 +452,8 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 19,
@@ -458,7 +474,8 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 20,
@@ -479,7 +496,8 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         },
         {
           "number": 21,
@@ -500,7 +518,8 @@
           "audioTranscript_cy": "",
           "videoUrl": "",
           "imageUrls": [],
-          "communityContent": []
+          "communityContent": [],
+          "credits": ""
         }
       ]
     }
