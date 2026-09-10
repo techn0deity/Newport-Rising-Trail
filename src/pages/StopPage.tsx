@@ -338,7 +338,24 @@ export default function StopPage({ lang }: { lang: Lang }) {
             <p style={{ margin: 0, color: "#666666", fontSize: 15 }}>{t(lang, "videoComingSoon")}</p>
           )}
         </div>
-
+        {/* 3D Tour section - only show if matterportUrl exists */}
+        {stop.matterportUrl && (
+          <div style={{ background: "#ffffff", border: "3px solid #000000", borderRadius: 12, padding: 20, marginBottom: 16 }}>
+            <h2 style={{ margin: "0 0 12px 0", fontSize: 18, color: "#000000" }}>3D Tour</h2>
+            <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: 8, border: "2px solid #000000" }}>
+              <iframe
+                src={stop.matterportUrl}
+                title="3D tour"
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                allowFullScreen
+                allow="autoplay; fullscreen; web-share; xr-spatial-tracking;"
+              />
+            </div>
+            <p style={{ margin: "12px 0 0 0", fontSize: 13, color: "#666666" }}>
+              Explore the location in 3D — drag to look around, click to move
+            </p>
+          </div>
+        )}
         {/* Action buttons */}
         <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 24 }}>
           <a href={mapsUrl} target="_blank" rel="noreferrer" style={{ display: "block", background: "#000000", color: "#ede532", padding: "14px 20px", borderRadius: 8, textDecoration: "none", fontSize: 17, fontWeight: "bold", textAlign: "center" }}>
