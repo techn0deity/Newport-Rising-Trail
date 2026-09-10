@@ -509,7 +509,7 @@
           "communityContent": [],
           "credits": "Image: St Mary's Church, Stow Hill, Newport by Reading Tom, via Wikimedia Commons, CC BY 2.0 (creativecommons.org/licenses/by/2.0)."
         },
-        {
+               {
           "number": 21,
           "title": "The Mayor's House",
           "title_cy": "Tŷ'r Maer",
@@ -527,10 +527,12 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_cd50e7c3f06442c9bb2b8c9571f36e28~mv2.jpg"
+          ],
           "communityContent": [],
-          "credits": ""
-        }
+          "credits": "Image: The attack of the Chartists on the Westgate Hotel, 4 November 1839. Contemporary print, public domain, via Wikimedia Commons."
+        },
       ]
     }
   ]
