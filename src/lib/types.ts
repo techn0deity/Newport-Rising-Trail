@@ -30,6 +30,8 @@ export type TrailStop = {
     author?: string;
   }[];
   credits?: string;
+    matterportUrl?: string;
+
 };
 
 export type Trail = {
