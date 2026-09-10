@@ -199,7 +199,9 @@ const descriptions: Record<number, Record<Lang, string>> = {
 function getStopTitle(stop: any, lang: Lang): string {
   if (lang === "en") return stop.title;
   const key = "title_" + lang;
-  return stop[key] || stop.title;
+  const translated = stop[key];
+  if (translated && translated.length > 0) return translated;
+  return stop.title;
 }
 
 function getDescription(num: number, lang: Lang): string {
@@ -255,7 +257,19 @@ export default function StopPage({ lang }: { lang: Lang }) {
     <div style={{ background: "#ede532", minHeight: "100vh", padding: 16 }}>
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
         
-        <Link to="/trail" style={{ display: "inline-block", color: "#000000", fontWeight: "bold", fontSize: 16, textDecoration: "none", marginBottom: 16 }}>
+        <Link to="/trail" style={{ 
+          display: "inline-flex",
+          alignItems: "center",
+          background: "#000000",
+          color: "#ede532",
+          padding: "10px 14px",
+          textDecoration: "none",
+          fontWeight: "900",
+          fontSize: 14,
+          textTransform: "uppercase",
+          letterSpacing: "1px",
+          marginBottom: 16,
+        }}>
           ← {t(lang, "backToTrail")}
         </Link>
 
@@ -363,6 +377,16 @@ export default function StopPage({ lang }: { lang: Lang }) {
             {t(lang, "submitYourContent")}
           </a>
         </div>
+
+        {/* Credits section - only show if credits exist */}
+        {stop.credits && stop.credits.length > 0 && (
+          <div style={{ background: "#f5f5f5", border: "2px solid #cccccc", borderRadius: 8, padding: 16, marginBottom: 24 }}>
+            <h3 style={{ margin: "0 0 8px 0", fontSize: 14, color: "#666666", fontWeight: "bold", textTransform: "uppercase", letterSpacing: "1px" }}>Credits</h3>
+            <p style={{ margin: 0, fontSize: 13, color: "#666666", lineHeight: 1.5 }}>
+              {stop.credits}
+            </p>
+          </div>
+        )}
 
         {/* Navigation */}
         <div style={{ display: "flex", gap: 12, justifyContent: "space-between" }}>
