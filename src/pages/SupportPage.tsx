@@ -134,7 +134,7 @@ export default function SupportPage({ lang }: { lang: Lang }) {
           textTransform: "uppercase",
           letterSpacing: "1px",
         }}>
-          ← {t(lang, "backToHome")}
+          {lang === "ur" ? "→" : "←"} {t(lang, "backToHome")}
         </Link>
 
         <h1 style={{ 
@@ -245,7 +245,7 @@ export default function SupportPage({ lang }: { lang: Lang }) {
               letterSpacing: "1px",
             }}
           >
-            {c.shopButton} →
+            {c.shopButton} {lang === "ur" ? "←" : "→"}
           </a>
         </div>
 
@@ -285,7 +285,7 @@ export default function SupportPage({ lang }: { lang: Lang }) {
               letterSpacing: "1px",
             }}
           >
-            {c.hubButton} →
+            {c.hubButton} {lang === "ur" ? "←" : "→"}
           </a>
         </div>
 

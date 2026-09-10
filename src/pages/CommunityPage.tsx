@@ -8,7 +8,7 @@ export default function CommunityPage({ lang }: { lang: Lang }) {
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
         
         <Link to="/" style={{ display: "inline-block", color: "#000000", fontWeight: "bold", fontSize: 16, textDecoration: "none", marginBottom: 16 }}>
-          ← {t(lang, "backToHome")}
+          {lang === "ur" ? "→" : "←"} {t(lang, "backToHome")}
         </Link>
 
         <h1 style={{ margin: "0 0 16px 0", fontSize: 26, fontWeight: "bold", color: "#000000" }}>
@@ -86,7 +86,7 @@ export default function CommunityPage({ lang }: { lang: Lang }) {
             rel="noreferrer"
             style={{ color: "#000000", fontSize: 14 }}
           >
-            {t(lang, "visitOurWebsite")} →
+            {t(lang, "visitOurWebsite")} {lang === "ur" ? "←" : "→"}
           </a>
         </div>
       </div>

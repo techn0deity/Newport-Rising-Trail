@@ -270,7 +270,7 @@ export default function StopPage({ lang }: { lang: Lang }) {
           letterSpacing: "1px",
           marginBottom: 16,
         }}>
-          ← {t(lang, "backToTrail")}
+          {lang === "ur" ? "→" : "←"} {t(lang, "backToTrail")}
         </Link>
 
         <div style={{ background: "#ffffff", border: "3px solid #000000", borderRadius: 12, padding: 20, marginBottom: 20 }}>
@@ -409,13 +409,13 @@ export default function StopPage({ lang }: { lang: Lang }) {
         <div style={{ display: "flex", gap: 12, justifyContent: "space-between" }}>
           {n > 1 ? (
             <Link to={"/stop/" + (n - 1)} style={{ display: "block", background: "#ffffff", color: "#000000", border: "3px solid #000000", padding: "12px 18px", borderRadius: 8, textDecoration: "none", fontSize: 15, fontWeight: "bold", textAlign: "center", flex: 1 }}>
-              ← {t(lang, "previous")}
+              {lang === "ur" ? "→" : "←"} {t(lang, "previous")}
             </Link>
           ) : <div style={{ flex: 1 }} />}
 
           {n < totalStops ? (
             <Link to={"/stop/" + (n + 1)} style={{ display: "block", background: "#ffffff", color: "#000000", border: "3px solid #000000", padding: "12px 18px", borderRadius: 8, textDecoration: "none", fontSize: 15, fontWeight: "bold", textAlign: "center", flex: 1 }}>
-              {t(lang, "next")} →
+              {t(lang, "next")} {lang === "ur" ? "←" : "→"}
             </Link>
           ) : <div style={{ flex: 1 }} />}
         </div>

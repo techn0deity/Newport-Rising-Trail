@@ -10,7 +10,7 @@ export default function AboutPage({ lang }: { lang: Lang }) {
       <div style={{ maxWidth: 800, margin: "0 auto" }}>
         
         <Link to="/" style={{ display: "inline-block", color: "#000000", fontWeight: "bold", fontSize: 16, textDecoration: "none", marginBottom: 16 }}>
-          ← {t(lang, "backToHome")}
+          {lang === "ur" ? "→" : "←"} {t(lang, "backToHome")}
         </Link>
 
         <h1 style={{ margin: "0 0 20px 0", fontSize: 26, fontWeight: "bold", color: "#000000" }}>
@@ -66,7 +66,7 @@ export default function AboutPage({ lang }: { lang: Lang }) {
             rel="noreferrer"
             style={{ display: "inline-block", marginTop: 16, background: "#000000", color: "#ede532", padding: "12px 20px", borderRadius: 8, textDecoration: "none", fontSize: 14, fontWeight: "bold" }}
           >
-            {t(lang, "visitOurWebsite")} →
+            {t(lang, "visitOurWebsite")} {lang === "ur" ? "←" : "→"}
           </a>
         </div>
 

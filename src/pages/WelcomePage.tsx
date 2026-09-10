@@ -108,7 +108,7 @@ export default function WelcomePage({ lang }: { lang: Lang }) {
               textTransform: "uppercase",
               letterSpacing: "2px",
             }}>
-              {t(lang, "startExploring")} →
+              {t(lang, "startExploring")} {lang === "ur" ? "←" : "→"}
             </button>
           </Link>
 

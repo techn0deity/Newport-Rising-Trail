@@ -79,7 +79,7 @@ export default function NearbyPage({ lang }: { lang: Lang }) {
           textTransform: "uppercase",
           letterSpacing: "1px",
         }}>
-          ← {t(lang, "backToHome")}
+          {lang === "ur" ? "→" : "←"} {t(lang, "backToHome")}
         </Link>
 
         <h1 style={{ 
