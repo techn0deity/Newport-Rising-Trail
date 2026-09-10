@@ -481,7 +481,7 @@
           "communityContent": [],
           "credits": ""
         },
-        {
+               {
           "number": 20,
           "title": "St. Mary's Church",
           "title_cy": "Eglwys Santes Fair",
@@ -499,9 +499,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_75fbcc6faa104b3a846a1ece2da78e34~mv2.jpg"
+          ],
           "communityContent": [],
-          "credits": ""
+          "credits": "Image: St Mary's Church, Stow Hill, Newport by Reading Tom, via Wikimedia Commons, CC BY 2.0 (creativecommons.org/licenses/by/2.0)."
         },
         {
           "number": 21,
