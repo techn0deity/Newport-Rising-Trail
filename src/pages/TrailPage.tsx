@@ -96,8 +96,8 @@ export function TrailPage({ lang }: { lang: Lang }) {
             flexShrink: 0,
             whiteSpace: "nowrap",
           }}>
-            ← {t(lang, "backToHome")}
-          </Link>
+            {lang === "ur" ? "→" : "←"} {t(lang, "backToHome")}
+                      </Link>
 
           {/* View Toggle */}
           <div style={{ display: "flex", gap: 0, flex: 1 }}>
@@ -227,8 +227,7 @@ export function TrailPage({ lang }: { lang: Lang }) {
                         {getStopTitle(stop, lang)}
                       </div>
                     </div>
-                    <div style={{ color: "#000000", fontSize: 24, fontWeight: "900" }}>→</div>
-                  </div>
+                    <div style={{ color: "#000000", fontSize: 24, fontWeight: "900" }}>{lang === "ur" ? "←" : "→"}</div>                  </div>
                 </Link>
               ))}
             </div>
