@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSettings } from "./state/useSettings";
 import { LANGUAGES } from "./lib/i18n";
 import WelcomePage from "./pages/WelcomePage";
@@ -35,6 +35,11 @@ export default function App() {
   const [langOpen, setLangOpen] = useState(false);
 
   const currentLang = LANGUAGES.find((l) => l.code === settings.lang);
+    // Set page language and text direction (Urdu reads right-to-left)
+  useEffect(() => {
+    document.documentElement.lang = settings.lang;
+    document.documentElement.dir = settings.lang === "ur" ? "rtl" : "ltr";
+  }, [settings.lang]);
 
   return (
     <BrowserRouter>
