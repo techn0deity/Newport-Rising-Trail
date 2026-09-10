@@ -434,7 +434,7 @@
           "communityContent": [],
           "credits": ""
         },
-        {
+               {
           "number": 18,
           "title": "Newport Cathedral, St Woolos",
           "title_cy": "Cadeirlan Casnewydd, Sant Woolos",
@@ -452,9 +452,12 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_42aa51e12eb84bbd8775d76a6c3a2b0d~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_6b55ba9ec57c41f089a0230f234bdc4a~mv2.png"
+          ],
           "communityContent": [],
-          "credits": ""
+          "credits": "Images: Newport Cathedral by Owain, via Wikimedia Commons, CC BY-SA 2.5 (creativecommons.org/licenses/by-sa/2.5). Chartist memorial stone: © Newport Rising."
         },
         {
           "number": 19,
