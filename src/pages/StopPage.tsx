@@ -204,6 +204,22 @@ function getStopTitle(stop: any, lang: Lang): string {
   return stop.title;
 }
 
+// Turn a YouTube watch/short link into its embeddable form.
+// Returns null for anything that isn't YouTube.
+function youTubeEmbedUrl(url: string): string | null {
+  const patterns = [
+    /(?:youtube\.com\/watch\?v=)([\w-]{11})/,
+    /(?:youtu\.be\/)([\w-]{11})/,
+    /(?:youtube\.com\/embed\/)([\w-]{11})/,
+    /(?:youtube\.com\/shorts\/)([\w-]{11})/,
+  ];
+  for (const re of patterns) {
+    const m = url.match(re);
+    if (m) return "https://www.youtube-nocookie.com/embed/" + m[1];
+  }
+  return null;
+}
+
 function getDescription(num: number, lang: Lang): string {
   const desc = descriptions[num];
   if (!desc) return "Historic Chartist location";
@@ -249,6 +265,9 @@ export default function StopPage({ lang }: { lang: Lang }) {
   const wix = lang === "cy" && stop.wixUrl_cy ? stop.wixUrl_cy : stop.wixUrl;
   const mapsUrl = "https://www.google.com/maps/dir/?api=1&destination=" + stop.lat + "," + stop.lng;
   const totalStops = trail.stops.length;
+
+  const youTubeUrl = stop.videoUrl ? youTubeEmbedUrl(stop.videoUrl) : null;
+  const isDirectVideo = !!stop.videoUrl && !youTubeUrl && /\.(mp4|webm|ogg|mov)(\?|$)/i.test(stop.videoUrl);
 
   const hasAudioFiles = stop.audioFiles && stop.audioFiles.length > 0;
   const hasLegacyAudio = stop.audioUrl && stop.audioUrl.length > 0;
@@ -330,7 +349,25 @@ export default function StopPage({ lang }: { lang: Lang }) {
         {/* Video section */}
         <div style={{ background: "#ffffff", border: "3px solid #000000", borderRadius: 12, padding: 20, marginBottom: 16 }}>
           <h2 style={{ margin: "0 0 12px 0", fontSize: 18, color: "#000000" }}>{t(lang, "video")}</h2>
-          {stop.videoUrl ? (
+          {youTubeUrl ? (
+            <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: 8, border: "2px solid #000000" }}>
+              <iframe
+                src={youTubeUrl}
+                title={t(lang, "video")}
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                allowFullScreen
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              />
+            </div>
+          ) : isDirectVideo ? (
+            <video
+              controls
+              preload="metadata"
+              playsInline
+              src={stop.videoUrl}
+              style={{ width: "100%", borderRadius: 8, border: "2px solid #000000", background: "#000000", display: "block" }}
+            />
+          ) : stop.videoUrl ? (
             <a href={stop.videoUrl} target="_blank" rel="noreferrer" style={{ display: "inline-block", background: "#000000", color: "#ede532", padding: "12px 20px", borderRadius: 8, textDecoration: "none", fontSize: 15, fontWeight: "bold" }}>
               {t(lang, "watchVideo")}
             </a>
