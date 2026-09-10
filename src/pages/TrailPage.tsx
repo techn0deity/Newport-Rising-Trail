@@ -62,7 +62,7 @@ export function TrailPage({ lang }: { lang: Lang }) {
       {/* Fixed Header */}
       <div style={{ 
         position: "fixed",
-        top: 75, // Below the main app header
+        top: "var(--app-header-height, 75px)", // Below the main app header
         left: 0,
         right: 0,
         zIndex: 900,
@@ -149,7 +149,7 @@ export function TrailPage({ lang }: { lang: Lang }) {
       {view === "map" ? (
         <div style={{ 
           width: "100%",
-          height: `calc(100vh - 75px - ${HEADER_HEIGHT + 4}px)`,
+          height: `calc(100dvh - var(--app-header-height, 75px) - ${HEADER_HEIGHT + 4}px)`,
           minHeight: 400,
           background: "#ffffff",
         }}>

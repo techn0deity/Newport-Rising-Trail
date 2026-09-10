@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSettings } from "./state/useSettings";
 import { LANGUAGES } from "./lib/i18n";
 import WelcomePage from "./pages/WelcomePage";
@@ -41,10 +41,36 @@ export default function App() {
     document.documentElement.dir = settings.lang === "ur" ? "rtl" : "ltr";
   }, [settings.lang]);
 
+  // Publish the header's real height as a CSS variable so pages can position
+  // themselves below it. The header grows on phones with a notch (safe-area
+  // inset) and when the language name wraps, so it can't be assumed.
+  const headerRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+
+    const publish = () => {
+      const h = Math.round(el.getBoundingClientRect().height);
+      document.documentElement.style.setProperty("--app-header-height", h + "px");
+    };
+
+    publish();
+
+    const observer = new ResizeObserver(publish);
+    observer.observe(el);
+    window.addEventListener("orientationchange", publish);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("orientationchange", publish);
+    };
+  }, []);
+
   return (
     <BrowserRouter>
       <div style={{ minHeight: "100vh", background: "#ede532" }}>
         <header
+          ref={headerRef}
           style={{
             background: "#000000",
             borderBottom: "4px solid #ede532",
