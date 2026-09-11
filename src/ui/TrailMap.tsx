@@ -1,8 +1,21 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { Protocol } from "pmtiles";
+import { layers, namedFlavor } from "@protomaps/basemaps";
 import type { TrailStop } from "../lib/types";
 import type { Lang } from "../lib/types";
+
+// Register the pmtiles:// protocol once for the whole app. Our map file is
+// a single static archive served from our own domain, so there is no tile
+// server to depend on and nobody who can rate-limit or block us.
+let protocolRegistered = false;
+function registerPmtilesProtocol() {
+  if (protocolRegistered) return;
+  const protocol = new Protocol();
+  maplibregl.addProtocol("pmtiles", protocol.tile);
+  protocolRegistered = true;
+}
 
 function getStopTitle(stop: any, lang: Lang): string {
   if (lang === "en") return stop.title;
@@ -30,31 +43,30 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
     const centerLat = (minLat + maxLat) / 2;
     const centerLng = (minLng + maxLng) / 2;
 
+    registerPmtilesProtocol();
+
     const map = new maplibregl.Map({
       container: ref.current,
       style: {
         version: 8,
+        glyphs:
+          "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+        sprite: "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
         sources: {
-          osm: {
-            type: "raster",
-            tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
-            tileSize: 256,
+          protomaps: {
+            type: "vector",
+            url: "pmtiles:///newport.pmtiles",
             attribution:
-              '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors',
+              '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors, tiles by <a href="https://protomaps.com" target="_blank" rel="noreferrer">Protomaps</a>',
           },
         },
-        layers: [
-          {
-            id: "osm",
-            type: "raster",
-            source: "osm",
-            minzoom: 0,
-            maxzoom: 19,
-          },
-        ],
+        layers: layers("protomaps", namedFlavor("light"), {
+          lang: lang === "cy" ? "cy" : "en",
+        }),
       },
       center: [centerLng, centerLat],
       zoom: 13,
+      maxZoom: 17,
     });
 
     map.on("load", () => {
@@ -91,8 +103,6 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
         });
     });
 
-    const viewLabel = lang === "cy" ? "Gweld y safle" : "View details";
-
     stops.forEach((s) => {
       const el = document.createElement("div");
       el.style.width = "32px";
@@ -112,26 +122,18 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
 
       const title = getStopTitle(s, lang);
 
-      const safeTitle = title
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-
       new maplibregl.Marker({ element: el })
         .setLngLat([s.lng, s.lat])
         .setPopup(
-          new maplibregl.Popup({ offset: 18, closeButton: true }).setHTML(
-            "<div style=\"font-family: inherit; min-width: 150px;\">" +
-              "<strong style=\"display:block; font-size:15px; color:#000; margin-bottom:8px; line-height:1.3;\">" +
-              s.number + ". " + safeTitle +
-              "</strong>" +
-              "<a href=\"/stop/" + s.number + "\" style=\"display:inline-block; background:#000; color:#ede532; padding:7px 14px; border-radius:6px; text-decoration:none; font-size:13px; font-weight:bold;\">" +
-              viewLabel +
-              "</a>" +
-            "</div>"
+          new maplibregl.Popup({ offset: 15 }).setHTML(
+            "<strong>" + s.number + ". " + title + "</strong><br><a href='/stop/" + s.number + "' style='color: #000000;'>View details</a>"
           )
         )
         .addTo(map);
+
+      el.addEventListener("click", () => {
+        window.location.href = "/stop/" + s.number;
+      });
     });
 
     mapRef.current = map;

@@ -58,26 +58,25 @@ export default defineConfig({
             },
           },
           {
-            // Photographs hosted on Wix. These never change once uploaded,
-            // so serve from cache and save the visitor's data.
-            // Audio and video are deliberately NOT cached: they are streamed
-            // in chunks, which caching breaks, and they are far too large to
-            // sit on someone's phone.
-            urlPattern: /^https:\/\/static\.wixstatic\.com\/media\/.*$/,
+            // Photographs and audio hosted on Wix. These never change
+            // once uploaded, so serve from cache and save the data.
+            urlPattern: /^https:\/\/(static|video)\.wixstatic\.com\/.*$/,
             handler: "CacheFirst",
             options: {
-              cacheName: "trail-images",
-              expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheName: "trail-media",
+              expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 60 },
               cacheableResponse: { statuses: [0, 200] },
+              rangeRequests: true,
             },
           },
           {
-            // Map tiles for the area people actually walk.
-            urlPattern: /^https:\/\/[abc]?\.?tile\.openstreetmap\.org\/.*$/,
+            // Map fonts and icons for the Protomaps basemap. Small, and they
+            // never change, so cache them hard.
+            urlPattern: /^https:\/\/protomaps\.github\.io\/basemaps-assets\/.*$/,
             handler: "CacheFirst",
             options: {
-              cacheName: "map-tiles",
-              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheName: "map-assets",
+              expiration: { maxEntries: 60, maxAgeSeconds: 60 * 60 * 24 * 365 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },
