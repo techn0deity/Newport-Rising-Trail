@@ -38,7 +38,7 @@ export default defineConfig({
 
       workbox: {
         // Precache the app itself so it opens with no connection.
-        globPatterns: ["**/*.{js,css,html,svg,png,ico,woff2}"],
+        globPatterns: ["**/*.{js,css,html,svg,png,ico,woff2,json,webmanifest}"],
         navigateFallback: "/index.html",
         cleanupOutdatedCaches: true,
         clientsClaim: true,
@@ -46,8 +46,8 @@ export default defineConfig({
 
         runtimeCaching: [
           {
-            // Trail data. Always try the network first so edits appear
-            // quickly, but keep the last good copy for when it fails.
+            // Trail data from the GitHub fallback. Network first, but keep
+            // the last good copy in case that fails too.
             urlPattern: /^https:\/\/raw\.githubusercontent\.com\/.*chartist_trail\.json.*$/,
             handler: "NetworkFirst",
             options: {

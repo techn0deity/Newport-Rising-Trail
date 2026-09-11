@@ -1,26 +1,45 @@
 import type { TrailResponse } from "./types";
 
-const ENDPOINT = "https://raw.githubusercontent.com/techn0deity/Newport-Rising-Trail/main/chartist_trail.json";
+// Served from our own domain by Cloudflare: fast, unmetered, and it works
+// offline once the service worker has cached it.
+const PRIMARY = "/chartist_trail.json";
 
-export async function fetchTrailData(): Promise<TrailResponse> {
-  const res = await fetch(ENDPOINT, { cache: "no-store" });
+// Fallback only. GitHub rate-limits this and it is not a CDN, so it is
+// used solely when our own copy cannot be reached.
+const FALLBACK =
+  "https://raw.githubusercontent.com/techn0deity/Newport-Rising-Trail/main/public/chartist_trail.json";
 
-  const text = await res.text(); // read raw body once
-
-  if (!res.ok) {
-    throw new Error(`Failed to load trail data (${res.status}) - ${text.slice(0, 200)}`);
-  }
-
-  // Helpful if Wix returns HTML or empty responses
+function parseTrail(text: string, source: string): TrailResponse {
   if (!text || text.trim().length === 0) {
-    throw new Error("Trail endpoint returned an empty response body.");
+    throw new Error(`Trail data at ${source} was empty.`);
   }
-
   try {
     return JSON.parse(text) as TrailResponse;
   } catch {
     throw new Error(
-      `Trail endpoint returned non-JSON. First 200 chars: ${text.slice(0, 200)}`
+      `Trail data at ${source} was not valid JSON. First 200 characters: ${text.slice(0, 200)}`
     );
+  }
+}
+
+async function load(url: string): Promise<TrailResponse> {
+  const res = await fetch(url);
+  const text = await res.text();
+  if (!res.ok) {
+    throw new Error(`Failed to load trail data (${res.status}) from ${url}`);
+  }
+  return parseTrail(text, url);
+}
+
+export async function fetchTrailData(): Promise<TrailResponse> {
+  try {
+    return await load(PRIMARY);
+  } catch (primaryError) {
+    try {
+      return await load(FALLBACK);
+    } catch {
+      // Report the primary failure: it is the one worth fixing.
+      throw primaryError;
+    }
   }
 }
