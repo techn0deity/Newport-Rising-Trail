@@ -39,7 +39,8 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
             type: "raster",
             tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
             tileSize: 256,
-            attribution: "OpenStreetMap contributors",
+            attribution:
+              '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors',
           },
         },
         layers: [
@@ -64,6 +65,31 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
     });
 
     map.addControl(new maplibregl.NavigationControl(), "top-right");
+
+    // Show the walker's own position, with an accuracy ring, and keep it
+    // updated as they move along the trail.
+    const geolocate = new maplibregl.GeolocateControl({
+      positionOptions: { enableHighAccuracy: true },
+      trackUserLocation: true,
+      showUserLocation: true,
+      showAccuracyCircle: true,
+    });
+    map.addControl(geolocate, "top-right");
+
+    // If the visitor has already granted location permission elsewhere in
+    // the app, start tracking straight away rather than making them tap.
+    // If they haven't, do nothing - never prompt unasked.
+    map.on("load", () => {
+      if (!navigator.permissions?.query) return;
+      navigator.permissions
+        .query({ name: "geolocation" as PermissionName })
+        .then((status) => {
+          if (status.state === "granted") geolocate.trigger();
+        })
+        .catch(() => {
+          // Permissions API unavailable - leave it to the button.
+        });
+    });
 
     stops.forEach((s) => {
       const el = document.createElement("div");
