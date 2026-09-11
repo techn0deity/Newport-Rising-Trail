@@ -91,6 +91,8 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
         });
     });
 
+    const viewLabel = lang === "cy" ? "Gweld y safle" : "View details";
+
     stops.forEach((s) => {
       const el = document.createElement("div");
       el.style.width = "32px";
@@ -110,18 +112,26 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
 
       const title = getStopTitle(s, lang);
 
+      const safeTitle = title
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
       new maplibregl.Marker({ element: el })
         .setLngLat([s.lng, s.lat])
         .setPopup(
-          new maplibregl.Popup({ offset: 15 }).setHTML(
-            "<strong>" + s.number + ". " + title + "</strong><br><a href='/stop/" + s.number + "' style='color: #000000;'>View details</a>"
+          new maplibregl.Popup({ offset: 18, closeButton: true }).setHTML(
+            "<div style=\"font-family: inherit; min-width: 150px;\">" +
+              "<strong style=\"display:block; font-size:15px; color:#000; margin-bottom:8px; line-height:1.3;\">" +
+              s.number + ". " + safeTitle +
+              "</strong>" +
+              "<a href=\"/stop/" + s.number + "\" style=\"display:inline-block; background:#000; color:#ede532; padding:7px 14px; border-radius:6px; text-decoration:none; font-size:13px; font-weight:bold;\">" +
+              viewLabel +
+              "</a>" +
+            "</div>"
           )
         )
         .addTo(map);
-
-      el.addEventListener("click", () => {
-        window.location.href = "/stop/" + s.number;
-      });
     });
 
     mapRef.current = map;

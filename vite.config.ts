@@ -58,15 +58,17 @@ export default defineConfig({
             },
           },
           {
-            // Photographs and audio hosted on Wix. These never change
-            // once uploaded, so serve from cache and save the data.
-            urlPattern: /^https:\/\/(static|video)\.wixstatic\.com\/.*$/,
+            // Photographs hosted on Wix. These never change once uploaded,
+            // so serve from cache and save the visitor's data.
+            // Audio and video are deliberately NOT cached: they are streamed
+            // in chunks, which caching breaks, and they are far too large to
+            // sit on someone's phone.
+            urlPattern: /^https:\/\/static\.wixstatic\.com\/media\/.*$/,
             handler: "CacheFirst",
             options: {
-              cacheName: "trail-media",
-              expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheName: "trail-images",
+              expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 60 },
               cacheableResponse: { statuses: [0, 200] },
-              rangeRequests: true,
             },
           },
           {
