@@ -1,1 +1,10 @@
-/*    /index.html   200
+# Serve real files first. Rules are matched in order, so these explicit
+# entries must come before the catch-all below, or Cloudflare hands back
+# index.html for them and the map (and trail data) silently fail.
+/newport.pmtiles      /newport.pmtiles      200
+/chartist_trail.json  /chartist_trail.json  200
+/manifest.webmanifest /manifest.webmanifest 200
+/sw.js                /sw.js                200
+
+# Single-page app: everything else falls through to the app itself.
+/*                    /index.html           200
