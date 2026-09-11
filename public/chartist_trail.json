@@ -15,6 +15,13 @@
           "title_pa": "ਨਿਊਪੋਰਟ ਮਿਊਜ਼ੀਅਮ ਅਤੇ ਆਰਟ ਗੈਲਰੀ",
           "title_ur": "نیوپورٹ میوزیم اور آرٹ گیلری",
           "title_hu": "Newport Múzeum és Művészeti Galéria",
+          "description": "Newport Museum and Art Gallery has extensive Chartist displays, bringing the subject to life and exploring characters on both sides. Contemporary guns and other weapons sit alongside artworks and written accounts showing the devastating impact the events of 4 November 1839 had on the area and the country as a whole.",
+          "description_cy": "Mae gan Amgueddfa ac Oriel Gelf Casnewydd arddangosfeydd Siartwyr helaeth, yn dod a'r pwnc yn fyw ac yn archwilio cymeriadau ar y ddwy ochr.",
+          "description_pl": "Muzeum i Galeria Sztuki w Newport posiada obszerne wystawy czartystowskie, oÅ¼ywiajÄce temat i przedstawiajÄce postacie z obu stron. WspÃ³Åczesne pistolety i inna broÅ stojÄ obok dzieÅ sztuki i pisemnych relacji pokazujÄcych niszczycielski wpÅyw wydarzeÅ z 4 listopada 1839 roku na region i caÅy kraj.",
+          "description_uk": "ÐÑÐ·ÐµÐ¹ Ñ ÑÑÐ´Ð¾Ð¶Ð½Ñ Ð³Ð°Ð»ÐµÑÐµÑ ÐÑÑÐ¿Ð¾ÑÑÐ° Ð¼Ð°ÑÑÑ Ð²ÐµÐ»Ð¸ÐºÑ Ð²Ð¸ÑÑÐ°Ð²ÐºÐ¸, Ð¿ÑÐ¸ÑÐ²ÑÑÐµÐ½Ñ ÑÐ°ÑÑÐ¸ÑÑÐ°Ð¼, Ð¾Ð¶Ð¸Ð²Ð»ÑÑÑÐ¸ ÑÑ ÑÐµÐ¼Ñ Ñ Ð´Ð¾ÑÐ»ÑÐ´Ð¶ÑÑÑÐ¸ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ² Ð· Ð¾Ð±Ð¾Ñ Ð±Ð¾ÐºÑÐ². Ð¡ÑÑÐ°ÑÐ½Ñ Ð¿ÑÑÑÐ¾Ð»ÐµÑÐ¸ ÑÐ° ÑÐ½ÑÐ° Ð·Ð±ÑÐ¾Ñ ÑÑÐ¾ÑÑÑ Ð¿Ð¾ÑÑÐ´ ÑÐ· ÑÐ²Ð¾ÑÐ°Ð¼Ð¸ Ð¼Ð¸ÑÑÐµÑÑÐ²Ð° ÑÐ° Ð¿Ð¸ÑÑÐ¼Ð¾Ð²Ð¸Ð¼Ð¸ ÑÐ²ÑÐ´ÑÐµÐ½Ð½ÑÐ¼Ð¸.",
+          "description_pa": "à¨¨à¨¿à¨à¨ªà©à¨°à¨ à¨®à¨¿à¨à¨à¨¼à©à¨à¨® à¨à¨¤à© à¨à¨°à¨ à¨à©à¨²à¨°à© à¨µà¨¿à©±à¨ à¨µà¨¿à¨à¨ªà¨ à¨à¨¾à¨°à¨à¨¿à¨¸à¨ à¨¡à¨¿à¨¸à¨ªà¨²à© à¨¹à¨¨, à¨µà¨¿à¨¸à¨¼à© à¨¨à©à©° à¨à©à¨µà¨¨ à¨µà¨¿à©±à¨ à¨²à¨¿à¨à¨à¨à¨¦à© à¨¹à¨¨ à¨à¨¤à© à¨¦à©à¨µà¨¾à¨ à¨ªà¨¾à¨¸à¨¿à¨à¨ à¨¦à© à¨ªà¨¾à¨¤à¨°à¨¾à¨ à¨¦à© à¨ªà©à¨à©à¨² à¨à¨°à¨¦à© à¨¹à¨¨à¥¤",
+          "description_ur": "ÙÛÙÙ¾ÙØ±Ù¹ ÙÛÙØ²ÛÙ Ø§ÙØ± Ø¢Ø±Ù¹ Ú¯ÛÙØ±Û ÙÛÚº ÙØ³ÛØ¹ ÚØ§Ø±Ù¹Ø³Ù¹ ÚØ³Ù¾ÙÛ ÛÛÚºØ ÙÙØ¶ÙØ¹ Ú©Ù Ø²ÙØ¯Û Ú©Ø±ØªÛ ÛÛÚº Ø§ÙØ± Ø¯ÙÙÙÚº Ø·Ø±Ù Ø³Û Ú©Ø±Ø¯Ø§Ø±ÙÚº Ú©Ù ØªÙØ§Ø´ Ú©Ø±ØªÛ ÛÛÚºÛ",
+          "description_hu": "A Newport MÃºzeum Ã©s MÅ±vÃ©szeti GalÃ©ria kiterjedt Chartista kiÃ¡llÃ­tÃ¡sokkal rendelkezik, Ã©letre keltve a tÃ©mÃ¡t Ã©s feltÃ¡rva a karaktereket mindkÃ©t oldalon.",
           "lat": 51.5859205,
           "lng": -2.9937281,
           "radiusMetres": 60,
@@ -39,6 +46,13 @@
           "title_pa": "ਦ ਪੈਰਟ ਇਨ",
           "title_ur": "دی پیرٹ ان",
           "title_hu": "A Papagáj Fogadó",
+          "description": "This is where Frost called the meeting of 30th October 1838 when an audience of 400-500 people adopted The People's Charter. Thomas Walker was the landlord of the Parrot Inn and also a special constable; he was injured at High Cross during the Newport Rising.",
+          "description_cy": "Dyma lle y galwodd Frost gyfarfod ar 30 Hydref 1838 pan fabwysiadodd cynulleidfa o 400-500 o bobl Siarter y Bobl.",
+          "description_pl": "To tutaj Frost zwoÅaÅ spotkanie 30 paÅºdziernika 1838 roku, kiedy 400-500-osobowe audytorium przyjÄÅo KartÄ LudowÄ. Thomas Walker byÅ wÅaÅcicielem gospody Parrot Inn i jednoczeÅnie specjalnym konstablem; zostaÅ ranny pod High Cross podczas Powstania w Newport.",
+          "description_uk": "Ð¡Ð°Ð¼Ðµ ÑÑÑ Ð¤ÑÐ¾ÑÑ ÑÐºÐ»Ð¸ÐºÐ°Ð² Ð·ÑÑÑÑÑÑ 30 Ð¶Ð¾Ð²ÑÐ½Ñ 1838 ÑÐ¾ÐºÑ, ÐºÐ¾Ð»Ð¸ Ð·ÑÐ±ÑÐ°Ð»Ð¾ÑÑ 400-500 Ð¾ÑÑÐ±, ÑÐºÑ Ð·Ð°ÑÐ²ÐµÑÐ´Ð¸Ð»Ð¸ ÐÐ°ÑÐ¾Ð´Ð½Ñ Ð¥Ð°ÑÑÑÑ. Ð¢Ð¾Ð¼Ð°Ñ ÐÐ¾Ð»ÐºÐµÑ Ð±ÑÐ² Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ¾Ð¼ Ð³Ð¾ÑÐµÐ»Ñ ÐÐ°Ð¿ÑÐ³Ð°, Ð° ÑÐ°ÐºÐ¾Ð¶ ÑÐ¿ÐµÑÑÐ°Ð»ÑÐ½Ð¸Ð¼ ÐºÐ¾Ð½ÑÑÐµÐ±Ð»ÐµÐ¼.",
+          "description_pa": "à¨à¨¹ à¨à¨¹ à¨¥à¨¾à¨ à¨¹à© à¨à¨¿à©±à¨¥à© à¨«à¨°à©à¨¸à¨ à¨¨à© 30 à¨à¨à¨¤à©à¨¬à¨° 1838 à¨¦à© à¨®à©à¨à¨¿à©°à¨ à¨¬à©à¨²à¨¾à¨ à¨¸à© à¨à¨¦à©à¨ 400-500 à¨²à©à¨à¨¾à¨ à¨¦à© à¨¦à¨°à¨¸à¨¼à¨à¨¾à¨ à¨¨à© à¨¦à¨¿ à¨ªà©à¨ªà¨²à¨à¨¼ à¨à¨¾à¨°à¨à¨° à¨¨à©à©° à¨à¨ªà¨£à¨¾à¨à¨à¥¤",
+          "description_ur": "ÛÛ ÙÛ Ø¬Ú¯Û ÛÛ Ø¬ÛØ§Úº ÙØ±ÙØ³Ù¹ ÙÛ 30 Ø§Ú©ØªÙØ¨Ø± 1838 Ú©Ù Ø§Ø¬ÙØ§Ø³ Ø¨ÙØ§ÛØ§ Ø¬Ø¨ 400-500 ÙÙÚ¯ÙÚº Ú©Û Ø³Ø§ÙØ¹ÛÙ ÙÛ Ø¯Û Ù¾ÛÙ¾ÙØ² ÚØ§Ø±Ù¹Ø± Ú©Ù Ø§Ù¾ÙØ§ÛØ§Û",
+          "description_hu": "Ide hÃ­vta Frost az 1838. oktÃ³ber 30-i talÃ¡lkozÃ³t, amikor a 400-500 fÅs hallgatÃ³sÃ¡g elfogadta a NÃ©pi ChartÃ¡t.",
           "lat": 51.5856882,
           "lng": -2.994866,
           "radiusMetres": 60,
@@ -63,9 +77,16 @@
           "title_pa": "ਦ ਵੈਸਟਗੇਟ ਹੋਟਲ",
           "title_ur": "ویسٹ گیٹ ہوٹل",
           "title_hu": "A Westgate Szálló",
+          "description": "On 4 November 1839, thousands of Chartists massed in front of the Westgate Inn and tried to force entry through the main door. Shots were exchanged with the soldiers hidden inside and the battle raged for more than 20 minutes. The Chartists scattered, leaving more than 20 dead. This event became known as The Newport Rising.",
+          "description_cy": "Ar 4 Tachwedd 1839, ymgasglodd miloedd o Siartwyr o flaen y Westgate Inn a cheisio mynd i mewn trwy'r prif ddrws. Cyfnewidiwyd ergydion gyda'r milwyr a oedd yn cuddio y tu mewn a pharhaodd y frwydr am fwy nag 20 munud.",
+          "description_pl": "4 listopada 1839 roku tysiÄce czartystÃ³w zgromadziÅo siÄ przed Westgate Inn i prÃ³bowaÅo wywaÅ¼yÄ gÅÃ³wne drzwi. Wymieniono strzaÅy z ukrytymi wewnÄtrz Å¼oÅnierzami, a bitwa trwaÅa ponad 20 minut. CzartyÅci rozproszyli siÄ, pozostawiajÄc ponad 20 zabitych.",
+          "description_uk": "4 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° 1839 ÑÐ¾ÐºÑ ÑÐ¸ÑÑÑÑ ÑÐ°ÑÑÐ¸ÑÑÑÐ² Ð·ÑÐ±ÑÐ°Ð»Ð¸ÑÑ Ð¿ÐµÑÐµÐ´ Ð³Ð¾ÑÐµÐ»ÐµÐ¼ ÐÐµÑÑÐ³ÐµÐ¹Ñ Ñ ÑÐ¿ÑÐ¾Ð±ÑÐ²Ð°Ð»Ð¸ ÑÐ²ÑÑÐ²Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð½ÑÐ¾Ð³Ð¾ ÑÐµÑÐµÐ· Ð³Ð¾Ð»Ð¾Ð²Ð½Ñ Ð´Ð²ÐµÑÑ. ÐÐ¾ÑÐ°Ð»Ð°ÑÑ Ð¿ÐµÑÐµÑÑÑÑÐ»ÐºÐ° Ð· ÑÐ¾Ð»Ð´Ð°ÑÐ°Ð¼Ð¸, ÑÐ¾ ÑÐ¾Ð²Ð°Ð»Ð¸ÑÑ Ð²ÑÐµÑÐµÐ´Ð¸Ð½Ñ, Ñ Ð±ÑÐ¹ ÑÑÐ¸Ð²Ð°Ð² Ð¿Ð¾Ð½Ð°Ð´ 20 ÑÐ²Ð¸Ð»Ð¸Ð½.",
+          "description_pa": "4 à¨¨à¨µà©°à¨¬à¨° 1839 à¨¨à©à©°, à¨¹à¨à¨¼à¨¾à¨°à¨¾à¨ à¨à¨¾à¨°à¨à¨¿à¨¸à¨ à¨µà©à¨¸à¨à¨à©à¨ à¨à¨¨ à¨¦à© à¨¸à¨¾à¨¹à¨®à¨£à© à¨à¨à©±à¨ à© à¨¹à©à¨ à¨à¨¤à© à¨®à©à©±à¨ à¨¦à¨°à¨µà¨¾à¨à¨¼à© à¨°à¨¾à¨¹à©à¨ à¨¦à¨¾à¨à¨² à¨¹à©à¨£ à¨¦à© à¨à©à¨¸à¨¼à¨¿à¨¸à¨¼ à¨à©à¨¤à©à¥¤",
+          "description_ur": "4 ÙÙÙØ¨Ø± 1839 Ú©ÙØ ÛØ²Ø§Ø±ÙÚº ÚØ§Ø±Ù¹Ø³Ù¹ ÙÛØ³Ù¹ Ú¯ÛÙ¹ Ø§Ù Ú©Û Ø³Ø§ÙÙÛ Ø¬ÙØ¹ ÛÙØ¦Û Ø§ÙØ± ÙØ±Ú©Ø²Û Ø¯Ø±ÙØ§Ø²Û Ø³Û Ø²Ø¨Ø±Ø¯Ø³ØªÛ Ø¯Ø§Ø®Ù ÛÙÙÛ Ú©Û Ú©ÙØ´Ø´ Ú©ÛÛ",
+          "description_hu": "1839. november 4-Ã©n chartistÃ¡k ezrei gyÅ±ltek Ã¶ssze a Westgate Inn elÅtt, Ã©s megprÃ³bÃ¡ltak erÅszakkal bejutni a fÅajtÃ³n. LÃ¶vÃ©seket vÃ¡ltottak a bent rejtett katonÃ¡kkal.",
           "lat": 51.5876344,
           "lng": -2.9965171,
-          "radiusMetres": 60,
+          "radiusMetres": 25,
           "wixUrl": "https://www.newportrising.co.uk/digitaltrail",
           "wixUrl_cy": "https://www.newportrising.co.uk/cy/digitaltrail",
           "audioUrl": "",
@@ -85,11 +106,21 @@
             "https://static.wixstatic.com/media/cb410a_4c64f1f769f541e29c92ee45fb1ff3fb~mv2.jpg"
           ],
           "communityContent": [
-            {"imageUrl": "https://static.wixstatic.com/media/cb410a_a1283838951c447893abbb5aad6ad5dc~mv2.jpg"},
-            {"imageUrl": "https://static.wixstatic.com/media/cb410a_236372f2ff704f3b84832c527dcb706b~mv2.jpeg"},
-            {"imageUrl": "https://static.wixstatic.com/media/cb410a_c7685c1abe8b480dbde0d6006d342590~mv2.jpeg"},
-            {"imageUrl": "https://static.wixstatic.com/media/cb410a_55b2d7ff778c4e828bd5925f0be20956~mv2.jpg"},
-            {"imageUrl": "https://static.wixstatic.com/media/cb410a_8493ae9244544f04a021675ef919e442~mv2.jpeg"}
+            {
+              "imageUrl": "https://static.wixstatic.com/media/cb410a_a1283838951c447893abbb5aad6ad5dc~mv2.jpg"
+            },
+            {
+              "imageUrl": "https://static.wixstatic.com/media/cb410a_236372f2ff704f3b84832c527dcb706b~mv2.jpeg"
+            },
+            {
+              "imageUrl": "https://static.wixstatic.com/media/cb410a_c7685c1abe8b480dbde0d6006d342590~mv2.jpeg"
+            },
+            {
+              "imageUrl": "https://static.wixstatic.com/media/cb410a_55b2d7ff778c4e828bd5925f0be20956~mv2.jpg"
+            },
+            {
+              "imageUrl": "https://static.wixstatic.com/media/cb410a_8493ae9244544f04a021675ef919e442~mv2.jpeg"
+            }
           ],
           "credits": "",
           "matterportUrl": "https://my.matterport.com/show/?m=4QaY3eeDxT6"
@@ -103,6 +134,13 @@
           "title_pa": "ਮੁਲੌਕ - ਇੱਕ ਗਵਾਹ",
           "title_ur": "ملاک - ایک گواہ",
           "title_hu": "Mullock – Egy Tanú",
+          "description": "From an upstairs window of a building at this site, a young artist called James Flewitt Mullock witnessed the attack on the Westgate Inn. When a shot struck nearby, he fled down Skinner Street. A year later, he produced a lithograph of the scene, which has been printed many times since.",
+          "description_cy": "O ffenestr ar lawr uchaf adeilad ar y safle hwn, gwelodd arlunydd ifanc o'r enw James Flewitt Mullock yr ymosodiad ar y Westgate Inn.",
+          "description_pl": "Z okna na piÄtrze budynku w tym miejscu mÅody artysta James Flewitt Mullock byÅ Åwiadkiem ataku na Westgate Inn. Kiedy w pobliÅ¼u padÅ strzaÅ, uciekÅ ulicÄ Skinner Street. Rok pÃ³Åºniej wykonaÅ litografiÄ tej sceny.",
+          "description_uk": "Ð Ð²ÑÐºÐ½Ð° Ð²ÐµÑÑÐ½ÑÐ¾Ð³Ð¾ Ð¿Ð¾Ð²ÐµÑÑÑ Ð±ÑÐ´ÑÐ²Ð»Ñ Ð½ÐµÐ¿Ð¾Ð´Ð°Ð»ÑÐº, Ð¼Ð¾Ð»Ð¾Ð´Ð¸Ð¹ ÑÑÐ´Ð¾Ð¶Ð½Ð¸Ðº ÐÐ¶ÐµÐ¹Ð¼Ñ Ð¤Ð»ÐµÐ²ÑÑÑ ÐÐ°Ð»Ð»Ð¾Ðº ÑÑÐ°Ð² ÑÐ²ÑÐ´ÐºÐ¾Ð¼ Ð°ÑÐ°ÐºÐ¸ Ð½Ð° Ð³Ð¾ÑÐµÐ»Ñ ÐÐµÑÑÐ³ÐµÐ¹Ñ. ÐÐ¾Ð»Ð¸ Ð½ÐµÐ¿Ð¾Ð´Ð°Ð»ÑÐº Ð¿ÑÐ¾Ð»ÑÐ½Ð°Ð² Ð¿Ð¾ÑÑÑÑÐ», Ð²ÑÐ½ Ð²ÑÑÐº Ð²Ð½Ð¸Ð· Ð¿Ð¾ Skinner Street.",
+          "description_pa": "à¨à¨¸ à¨¸à¨¾à¨à¨ 'à¨¤à© à¨à©±à¨ à¨à¨®à¨¾à¨°à¨¤ à¨¦à© à¨à©±à¨ªà¨°à¨²à© à¨à¨¿à©à¨à© à¨¤à©à¨, à¨à©à¨®à¨¸ à¨«à¨²à©à¨µà¨¿à¨ à¨®à©à¨²à¨ à¨¨à¨¾à¨®à¨ à¨à©±à¨ à¨¨à©à¨à¨µà¨¾à¨¨ à¨à¨²à¨¾à¨à¨¾à¨° à¨¨à© à¨µà©à¨¸à¨à¨à©à¨ à¨à¨¨ 'à¨¤à© à¨¹à¨®à¨²à© à¨¨à©à©° à¨¦à©à¨à¨¿à¨à¥¤",
+          "description_ur": "Ø§Ø³ Ø³Ø§Ø¦Ù¹ Ù¾Ø± Ø§ÛÚ© Ø¹ÙØ§Ø±Øª Ú©Û Ø§ÙÙ¾Ø± Ú©Û Ú©Ú¾ÚÚ©Û Ø³ÛØ Ø¬ÛÙØ² ÙÙÛÙÛÙ¹ ÙÙÙÚ© ÙØ§ÙÛ Ø§ÛÚ© ÙÙØ¬ÙØ§Ù ÙÙÚ©Ø§Ø± ÙÛ ÙÛØ³Ù¹ Ú¯ÛÙ¹ Ø§Ù Ù¾Ø± Ø­ÙÙÛ Ú©Ø§ ÙØ´Ø§ÛØ¯Û Ú©ÛØ§Û",
+          "description_hu": "Az ezen a helyen talÃ¡lhatÃ³ Ã©pÃ¼let emeleti ablakÃ¡bÃ³l egy James Flewitt Mullock nevÅ± fiatal mÅ±vÃ©sz szemtanÃºja volt a Westgate Inn elleni tÃ¡madÃ¡snak.",
           "lat": 51.5880509,
           "lng": -2.9966923,
           "radiusMetres": 60,
@@ -128,6 +166,13 @@
           "title_pa": "ਦ ਮੁਰੇਂਜਰ",
           "title_ur": "دی مورینجر",
           "title_hu": "A Murenger",
+          "description": "John Frost was one of the owners of this building which dates from 1533. His draper's shop also stood on this side of High Street until the late 1870s. Once the home of the High Sheriff of Monmouthshire, today the Murenger is a public house.",
+          "description_cy": "Roedd John Frost yn un o berchnogion yr adeilad hwn sy'n dyddio o 1533. Roedd ei siop dillad hefyd yn sefyll ar yr ochr hon o'r Stryd Fawr tan ddiwedd y 1870au.",
+          "description_pl": "John Frost byÅ jednym z wÅaÅcicieli tego budynku, ktÃ³ry pochodzi z 1533 roku. Jego sklep sukienniczy rÃ³wnieÅ¼ staÅ po tej stronie High Street do koÅca lat 70. XIX wieku.",
+          "description_uk": "ÐÐ¶Ð¾Ð½ Ð¤ÑÐ¾ÑÑ Ð±ÑÐ² Ð¾Ð´Ð½Ð¸Ð¼ ÑÐ· Ð²Ð»Ð°ÑÐ½Ð¸ÐºÑÐ² ÑÑÑÑ Ð±ÑÐ´ÑÐ²Ð»Ñ, ÑÐºÐ° Ð±ÑÐ»Ð° Ð¿Ð¾Ð±ÑÐ´Ð¾Ð²Ð°Ð½Ð° Ñ 1533 ÑÐ¾ÑÑ. ÐÐ¾Ð³Ð¾ ÑÐ²Ð°ÑÑÐºÐ° Ð¼Ð°Ð¹ÑÑÐµÑÐ½Ñ ÑÐ°ÐºÐ¾Ð¶ ÑÑÐ¾ÑÐ»Ð° Ð½Ð° ÑÑÐ¾Ð¼Ñ Ð±Ð¾ÑÑ High Street Ð´Ð¾ ÐºÑÐ½ÑÑ 1870-Ñ ÑÐ¾ÐºÑÐ².",
+          "description_pa": "à¨à©à¨¹à¨¨ à¨«à¨°à©à¨¸à¨ à¨à¨¸ à¨à¨®à¨¾à¨°à¨¤ à¨¦à© à¨®à¨¾à¨²à¨à¨¾à¨ à¨µà¨¿à©±à¨à©à¨ à¨à©±à¨ à¨¸à© à¨à© 1533 à¨¦à© à¨¹à©à¥¤ à¨à¨¸à¨¦à© à¨¡à¨°à¨¾à¨ªà¨° à¨¦à© à¨¦à©à¨à¨¾à¨¨ à¨µà© 1870 à¨¦à© à¨¦à¨¹à¨¾à¨à© à¨¦à© à¨à¨à©à¨° à¨¤à©±à¨ à¨¹à¨¾à¨ à¨¸à¨à¨°à©à¨ à¨¦à© à¨à¨¸ à¨ªà¨¾à¨¸à© à¨à©à©à¨¹à© à¨¸à©à¥¤",
+          "description_ur": "Ø¬Ø§Ù ÙØ±Ø§Ø³Ù¹ Ø§Ø³ Ø¹ÙØ§Ø±Øª Ú©Û ÙØ§ÙÚ©Ø§Ù ÙÛÚº Ø³Û Ø§ÛÚ© ØªÚ¾Û Ø¬Ù Ú©Û 1533 Ú©Û ÛÛÛ Ø§Ø³ Ú©Û ÚØ±ÛÙ¾Ø± Ú©Û Ø¯Ú©Ø§Ù Ø¨Ú¾Û 1870 Ú©Û Ø¯ÛØ§Ø¦Û Ú©Û Ø¢Ø®Ø± ØªÚ© ÛØ§Ø¦Û Ø§Ø³Ù¹Ø±ÛÙ¹ Ú©Û Ø§Ø³ Ø·Ø±Ù Ú©Ú¾ÚÛ ØªÚ¾ÛÛ",
+          "description_hu": "John Frost volt az egyik tulajdonosa ennek az 1533-bÃ³l szÃ¡rmazÃ³ Ã©pÃ¼letnek. Az Å drapÃ©riÃ¡ja is a High Street ezen oldalÃ¡n Ã¡llt az 1870-es Ã©vek vÃ©gÃ©ig.",
           "lat": 51.5893882,
           "lng": -2.9973186,
           "radiusMetres": 60,
@@ -152,6 +197,13 @@
           "title_pa": "ਦ ਕਾਰਪੈਂਟਰਜ਼ ਆਰਮਜ਼",
           "title_ur": "دی کارپینٹرز آرمز",
           "title_hu": "Az Ács Fogadó",
+          "description": "On Saturday 2 November 1839, a young Chartist messenger from Bradford stayed in the Carpenters Arms before travelling home by stage-coach the next day. He had met Frost in Blackwood, where he unsuccessfully tried to persuade him to delay the march on Newport because the Yorkshire Chartists were not yet ready to rise in support.",
+          "description_cy": "Ar ddydd Sadwrn 2 Tachwedd 1839, arhosodd negesydd Siartaidd ifanc o Bradford yn y Carpenters Arms cyn teithio adref ar goets y diwrnod canlynol.",
+          "description_pl": "W sobotÄ 2 listopada 1839 roku mÅody posÅaniec czartystowski z Bradford zatrzymaÅ siÄ w Carpenters Arms przed powrotem do domu dyliÅ¼ansem nastÄpnego dnia.",
+          "description_uk": "Ð£ ÑÑÐ±Ð¾ÑÑ, 2 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° 1839 ÑÐ¾ÐºÑ, Ð¼Ð¾Ð»Ð¾Ð´Ð¸Ð¹ ÑÐ°ÑÑÐ¸ÑÑÑÑÐºÐ¸Ð¹ Ð¿Ð¾ÑÐ»Ð°Ð½ÐµÑÑ Ð· ÐÑÐµÐ´ÑÐ¾ÑÐ´Ð° Ð·ÑÐ¿Ð¸Ð½Ð¸Ð²ÑÑ Ð² Ð¢ÐµÑÐ»ÑÑÑÑÐºÐ¾Ð¼Ñ ÐÑÑÐµÐ½Ð°Ð»Ñ, ÑÐ¾Ð± Ð½Ð°ÑÑÑÐ¿Ð½Ð¾Ð³Ð¾ Ð´Ð½Ñ Ð¿Ð¾ÑÑÐ°ÑÐ¸ Ð´Ð¾Ð´Ð¾Ð¼Ñ Ð´Ð¸Ð»ÑÐ¶Ð°Ð½ÑÐ¾Ð¼.",
+          "description_pa": "à¨¸à¨¼à¨¨à©à¨µà¨¾à¨° 2 à¨¨à¨µà©°à¨¬à¨° 1839 à¨¨à©à©°, à¨¬à©à¨°à©à¨¡à¨«à©à¨°à¨¡ à¨¦à¨¾ à¨à©±à¨ à¨¨à©à¨à¨µà¨¾à¨¨ à¨à¨¾à¨°à¨à¨¿à¨¸à¨ à¨®à©à¨¸à©à¨à¨à¨° à¨à¨à¨²à© à¨¦à¨¿à¨¨ à¨¸à¨à©à¨-à¨à©à¨ à¨¦à©à¨à¨°à¨¾ à¨à¨° à¨à¨¾à¨£ à¨¤à©à¨ à¨ªà¨¹à¨¿à¨²à¨¾à¨ à¨à¨¾à¨°à¨ªà©à¨à¨à¨°à¨¸ à¨à¨°à¨®à¨à¨¼ à¨µà¨¿à©±à¨ à¨°à¨¿à¨¹à¨¾à¥¤",
+          "description_ur": "ÛÙØªÛ 2 ÙÙÙØ¨Ø± 1839 Ú©ÙØ Ø¨Ø±ÛÚ ÙÙØ±Ú Ú©Ø§ Ø§ÛÚ© ÙÙØ¬ÙØ§Ù ÚØ§Ø±Ù¹Ø³Ù¹ ÙÛØ³ÙØ¬Ø± Ø§Ú¯ÙÛ Ø¯Ù Ø³Ù¹ÛØ¬ Ú©ÙÚ Ú©Û Ø°Ø±ÛØ¹Û Ú¯Ú¾Ø± Ø¬Ø§ÙÛ Ø³Û Ù¾ÛÙÛ Ú©Ø§Ø±Ù¾ÛÙÙ¹Ø±Ø² Ø¢Ø±ÙØ² ÙÛÚº Ø±ÛØ§Û",
+          "description_hu": "1839. november 2-Ã¡n, szombaton egy fiatal chartista hÃ­rnÃ¶k BradfordbÃ³l a Carpenters ArmsnÃ¡l maradt, majd mÃ¡snap hazautazott egy edzÅvel.",
           "lat": 51.5896966,
           "lng": -2.9967654,
           "radiusMetres": 60,
@@ -176,6 +228,13 @@
           "title_pa": "ਥਾਮਸ ਸਟਰੀਟ",
           "title_ur": "تھامس اسٹریٹ",
           "title_hu": "Thomas utca",
+          "description": "This building stands on the site of the entrance to Thomas Street, where John Frost's parents, John and Sarah, kept the Royal Oak public house. He became a magistrate and mayor of Newport in 1836 before becoming involved in the Chartist movement.",
+          "description_cy": "Saif yr adeilad hwn ar safle'r fynedfa i Stryd Thomas, lle roedd rhieni John Frost, John a Sarah, yn cadw tafarn y Royal Oak.",
+          "description_pl": "Ten budynek stoi w miejscu wejÅcia na Thomas Street, gdzie rodzice Johna Frosta, John i Sarah, prowadzili pub Royal Oak. ZostaÅ sÄdziÄ i burmistrzem Newport w 1836 roku, zanim zaangaÅ¼owaÅ siÄ w ruch czartystowski.",
+          "description_uk": "Ð¦Ñ Ð±ÑÐ´ÑÐ²Ð»Ñ ÑÑÐ¾ÑÑÑ Ð½Ð° Ð¿Ð¾ÑÐ°ÑÐºÑ Thomas Street, Ð´Ðµ Ð±Ð°ÑÑÐºÐ¸ ÐÐ¶Ð¾Ð½Ð° Ð¤ÑÐ¾ÑÑÐ°, ÐÐ¶Ð¾Ð½ Ñ Ð¡Ð°ÑÐ°, ÑÑÐ¸Ð¼Ð°Ð»Ð¸ Ð¿Ð°Ð± Royal Oak. Ð£ 1836 ÑÐ¾ÑÑ Ð²ÑÐ½ ÑÑÐ°Ð² ÑÑÐ´Ð´ÐµÑ Ñ Ð¼ÐµÑÐ¾Ð¼ ÐÑÑÐ¿Ð¾ÑÑÐ°.",
+          "description_pa": "à¨à¨¹ à¨à¨®à¨¾à¨°à¨¤ à¨¥à¨¾à¨®à¨¸ à¨¸à¨à¨°à©à¨ à¨¦à© à¨ªà©à¨°à¨µà©à¨¸à¨¼ à¨¦à©à¨à¨° à¨¦à© à¨¸à¨¥à¨¾à¨¨ 'à¨¤à© à¨à©à©à¨¹à© à¨¹à©, à¨à¨¿à©±à¨¥à© à¨à©à¨¨ à¨«à¨°à©à¨¸à¨ à¨¦à© à¨®à¨¾à¨¤à¨¾-à¨ªà¨¿à¨¤à¨¾ à¨à©à¨¨ à¨à¨¤à© à¨¸à¨¾à¨°à¨¾à¨¹ à¨¨à© à¨°à¨¾à¨à¨² à¨à¨ à¨ªà¨¬à¨²à¨¿à¨ à¨¹à¨¾à¨à¨¸ à¨°à©±à¨à¨¿à¨ à¨¸à©à¥¤",
+          "description_ur": "ÛÛ Ø¹ÙØ§Ø±Øª ØªÚ¾Ø§ÙØ³ Ø§Ø³Ù¹Ø±ÛÙ¹ Ú©Û Ø¯Ø§Ø®ÙÛ Ø¯Ø±ÙØ§Ø²Û Ú©Û Ø¬Ú¯Û Ù¾Ø± Ú©Ú¾ÚÛ ÛÛØ Ø¬ÛØ§Úº Ø¬Ø§Ù ÙØ±Ø§Ø³Ù¹ Ú©Û ÙØ§ÙØ¯ÛÙ Ø¬Ø§Ù Ø§ÙØ± Ø³Ø§Ø±Û ÙÛ Ø±Ø§Ø¦Ù Ø§ÙÚ© Ù¾Ø¨ÙÚ© ÛØ§Ø¤Ø³ Ø±Ú©Ú¾Ø§ ØªÚ¾Ø§Û",
+          "description_hu": "Ez az Ã©pÃ¼let a Thomas Street bejÃ¡ratÃ¡nak helyÃ©n Ã¡ll, ahol John Frost szÃ¼lei, John Ã©s Sarah tartottÃ¡k a Royal Oak nyilvÃ¡nos hÃ¡zat.",
           "lat": 51.5899041,
           "lng": -2.9966052,
           "radiusMetres": 60,
@@ -200,6 +259,13 @@
           "title_pa": "ਛੇ ਨੁਕਤੇ",
           "title_ur": "چھ نکات",
           "title_hu": "A Hat Pont",
+          "description": "The six points of The People's Charter are inscribed alongside the steps leading to John Frost Square. The Charter was drafted by William Lovett and sets out the changes the Chartists wanted to see in the electoral system. The People's Charter still provides the foundation for our modern democracy.",
+          "description_cy": "Mae chwe phwynt Siarter y Bobl wedi'u harysgrifio ochr yn ochr a'r grisiau sy'n arwain at Sgwar John Frost.",
+          "description_pl": "SzeÅÄ punktÃ³w Karty Ludowej jest wypisanych wzdÅuÅ¼ schodÃ³w prowadzÄcych na Plac Johna Frosta. Karta zostaÅa przygotowana przez Williama Lovetta i okreÅla zmiany, ktÃ³re czartyÅci chcieli zobaczyÄ w systemie wyborczym.",
+          "description_uk": "Ð¨ÑÑÑÑ Ð¿ÑÐ½ÐºÑÑÐ² ÐÐ°ÑÐ¾Ð´Ð½Ð¾Ñ Ð¥Ð°ÑÑÑÑ Ð²Ð¸Ð±Ð¸ÑÑ Ð½Ð° ÑÑÐ¾Ð´Ð°Ñ, ÑÐ¾ Ð²ÐµÐ´ÑÑÑ Ð´Ð¾ Ð¿Ð»Ð¾ÑÑ ÐÐ¶Ð¾Ð½Ð° Ð¤ÑÐ¾ÑÑÐ°. Ð¥Ð°ÑÑÑÑ Ð±ÑÐ»Ð° ÑÐºÐ»Ð°Ð´ÐµÐ½Ð° ÐÑÐ»ÑÑÐ¼Ð¾Ð¼ ÐÐ¾Ð²ÐµÑÑÐ¾Ð¼ Ñ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶Ð°Ñ Ð·Ð¼ÑÐ½Ð¸, ÑÐºÑ ÑÐ°ÑÑÐ¸ÑÑÐ¸ ÑÐ¾ÑÑÐ»Ð¸ Ð±Ð°ÑÐ¸ÑÐ¸ Ñ Ð²Ð¸Ð±Ð¾ÑÑÑÐ¹ ÑÐ¸ÑÑÐµÐ¼Ñ.",
+          "description_pa": "à¨ªà©à¨ªà¨²à¨à¨¼ à¨à¨¾à¨°à¨à¨° à¨¦à© à¨à© à¨¨à©à¨à¨¤à© à¨à©à¨¹à¨¨ à¨«à©à¨°à©à¨¸à¨ à¨¸à¨à©à¨à¨à¨° à¨µà©±à¨² à¨à¨¾à¨£ à¨µà¨¾à¨²à©à¨à¨ à¨ªà©à©à©à¨à¨ à¨¦à© à¨¨à¨¾à¨² à¨à©±à¨à¨°à© à¨¹à©à¨ à¨¹à¨¨à¥¤",
+          "description_ur": "Ø¯Û Ù¾ÛÙ¾ÙØ² ÚØ§Ø±Ù¹Ø± Ú©Û ÚÚ¾ ÙÚ©Ø§Øª Ø¬Ø§Ù ÙØ±Ø§Ø³Ù¹ Ø§Ø³Ú©ÙØ§Ø¦Ø± Ú©Û Ø·Ø±Ù Ø¬Ø§ÙÛ ÙØ§ÙÛ Ø³ÛÚÚ¾ÛÙÚº Ú©Û Ø³Ø§ØªÚ¾ Ú©ÙØ¯Û ÛÛÚºÛ",
+          "description_hu": "A The People's Charter hat pontja a John Frost tÃ©rre vezetÅ lÃ©pcsÅk mellett van felÃ­rva.",
           "lat": 51.5862888,
           "lng": -2.9927465,
           "radiusMetres": 60,
@@ -224,6 +290,13 @@
           "title_pa": "ਜੌਨ ਫ੍ਰੌਸਟ ਸਕੁਆਇਰ",
           "title_ur": "جان فراسٹ اسکوائر",
           "title_hu": "John Frost tér",
+          "description": "John Frost Square, originally created in the 1970s and redeveloped in 2015, is named after one of the leaders of the South Wales Chartists. The tall building visible to the north of the Square is called Chartist Tower in commemoration of the Rising. Newport Museum and Art Gallery contains an extensive Chartist exhibition.",
+          "description_cy": "Mae Sgwar John Frost, a grÃ«wyd yn wreiddiol yn y 1970au ac a ailddatblygwyd yn 2015, wedi'i enwi ar ol un o arweinwyr Siartwyr De Cymru.",
+          "description_pl": "Plac Johna Frosta, utworzony pierwotnie w latach 70. XX wieku i przebudowany w 2015 roku, nosi imiÄ jednego z przywÃ³dcÃ³w czartystÃ³w z PoÅudniowej Walii.",
+          "description_uk": "ÐÐ»Ð¾ÑÐ° ÐÐ¶Ð¾Ð½Ð° Ð¤ÑÐ¾ÑÑÐ°, ÑÑÐ²Ð¾ÑÐµÐ½Ð° Ñ 1970-Ñ ÑÐ¾ÐºÐ°Ñ Ñ Ð¿ÐµÑÐµÐ¿Ð»Ð°Ð½Ð¾Ð²Ð°Ð½Ð° Ñ 2015 ÑÐ¾ÑÑ, Ð½Ð°Ð·Ð²Ð°Ð½Ð° Ð½Ð° ÑÐµÑÑÑ Ð¾Ð´Ð½Ð¾Ð³Ð¾ Ð· Ð»ÑÐ´ÐµÑÑÐ² Ð¿ÑÐ²Ð´ÐµÐ½Ð½Ð¾ÑÐµÐ»ÑÑÑÐºÐ¸Ñ ÑÐ°ÑÑÐ¸ÑÑÑÐ².",
+          "description_pa": "à¨à©à¨¹à¨¨ à¨«à©à¨°à©à¨¸à¨ à¨¸à¨à©à¨à¨à¨°, à¨à¨¸à¨² à¨µà¨¿à©±à¨ 1970 à¨¦à© à¨¦à¨¹à¨¾à¨à© à¨µà¨¿à©±à¨ à¨¬à¨£à¨¾à¨à¨ à¨à¨¿à¨ à¨à¨¤à© 2015 à¨µà¨¿à©±à¨ à¨¦à©à¨¬à¨¾à¨°à¨¾ à¨µà¨¿à¨à¨¸à¨¿à¨¤ à¨à©à¨¤à¨¾ à¨à¨¿à¨, à¨¦à¨¾ à¨¨à¨¾à¨® à¨¦à©±à¨à¨£à© à¨µà©à¨²à¨à¨¼ à¨à¨¾à¨°à¨à¨¿à¨¸à¨à¨¾à¨ à¨¦à© à¨¨à©à¨¤à¨¾à¨µà¨¾à¨ à¨µà¨¿à©±à¨à©à¨ à¨à©±à¨ à¨¦à© à¨¨à¨¾à¨® à¨à©±à¨¤à© à¨°à©±à¨à¨¿à¨ à¨à¨¿à¨ à¨¹à©à¥¤",
+          "description_ur": "Ø¬Ø§Ù ÙØ±Ø§Ø³Ù¹ Ø§Ø³Ú©ÙØ§Ø¦Ø±Ø Ø¬Ù Ø§ØµÙ ÙÛÚº 1970 Ú©Û Ø¯ÛØ§Ø¦Û ÙÛÚº Ø¨ÙØ§ÛØ§ Ú¯ÛØ§ ØªÚ¾Ø§ Ø§ÙØ± 2015 ÙÛÚº Ø¯ÙØ¨Ø§Ø±Û ØªÛØ§Ø± Ú©ÛØ§ Ú¯ÛØ§ ØªÚ¾Ø§Ø Ú©Ø§ ÙØ§Ù Ø³Ø§Ø¤ØªÚ¾ ÙÛÙØ² ÚØ§Ø±Ù¹Ø³Ù¹ÙÚº Ú©Û Ø§ÛÚ© Ø±ÛÙÙØ§ Ú©Û ÙØ§Ù Ù¾Ø± Ø±Ú©Ú¾Ø§ Ú¯ÛØ§ ÛÛÛ",
+          "description_hu": "Az eredetileg az 1970-es Ã©vekben lÃ©trehozott, majd 2015-ben felÃºjÃ­tott John Frost Square a dÃ©l-walesi chartistÃ¡k egyik vezetÅjÃ©rÅl kapta a nevÃ©t.",
           "lat": 51.5862021,
           "lng": -2.9937281,
           "radiusMetres": 60,
@@ -248,6 +321,13 @@
           "title_pa": "ਸੇਂਟ ਪੌਲ ਚਰਚ",
           "title_ur": "سینٹ پال چرچ",
           "title_hu": "Szent Pál templom",
+          "description": "St Paul's Church opened in 1836. In April 1839, the Rev. James Francis, the church's first vicar, preached from Jeremiah 2:13, warning against 'foolish allegiances' with the Chartist Movement. Many Chartists in the congregation, including Henry Vincent, John Lovell and Charles Waters, sat in the pews in silent protest.",
+          "description_cy": "Agorodd Eglwys Sant Paul yn 1836. Ym mis Ebrill 1839, pregethodd y Parch. James Francis, ficer cyntaf yr eglwys, o Jeremeia 2:13, gan rybuddio yn erbyn 'teyrngarwch ffol' gyda Mudiad y Siartwyr.",
+          "description_pl": "KoÅciÃ³Å Åw. PawÅa otwarto w 1836 roku. W kwietniu 1839 roku ks. James Francis, pierwszy wikariusz koÅcioÅa, gÅosiÅ kazanie z Jeremiasza 2:13, ostrzegajÄc przed gÅupimi lojalnoÅciami wobec ruchu czartystowskiego.",
+          "description_uk": "Ð¦ÐµÑÐºÐ²Ð° Ð¡Ð²ÑÑÐ¾Ð³Ð¾ ÐÐ°Ð²Ð»Ð° Ð±ÑÐ»Ð° Ð²ÑÐ´ÐºÑÐ¸ÑÐ° Ð² 1836 ÑÐ¾ÑÑ. Ð£ ÐºÐ²ÑÑÐ½Ñ 1839 ÑÐ¾ÐºÑ, Ð¿ÑÐµÐ¿Ð¾Ð´Ð¾Ð±Ð½Ð¸Ð¹ ÐÐ¶ÐµÐ¹Ð¼Ñ Ð¤ÑÐµÐ½ÑÑÑ, Ð¿ÐµÑÑÐ¸Ð¹ Ð¿Ð°ÑÐ¾Ñ ÑÐµÑÐºÐ²Ð¸, Ð¿ÑÐ¾Ð¿Ð¾Ð²ÑÐ´ÑÐ²Ð°Ð² Ð· ÐÑÐµÐ¼ÑÑ 2:13, Ð·Ð°ÑÑÐµÑÑÐ³Ð°ÑÑÐ¸ Ð²ÑÐ´ Ð½ÐµÑÐ¾Ð·ÑÐ¼Ð½Ð¾Ñ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÐºÐ¸ ÑÐ°ÑÑÐ¸ÑÑÑÑÐºÐ¾Ð³Ð¾ ÑÑÑÑ.",
+          "description_pa": "à¨¸à©à¨à¨ à¨ªà©à¨² à¨à¨°à¨ 1836 à¨µà¨¿à©±à¨ à¨à©à¨²à©à¨¹à¨¿à¨ à¨à¨¿à¨à¥¤ à¨à¨ªà©à¨°à©à¨² 1839 à¨µà¨¿à©±à¨, à¨à¨°à¨ à¨¦à© à¨ªà¨¹à¨¿à¨²à© à¨µà¨¿à¨à¨¾à¨°, à¨°à©à¨µà¨° à¨à©à¨®à¨à¨¼ à¨«à©à¨°à¨¾à¨à¨¸à¨¿à¨¸ à¨¨à© à¨¯à¨¿à¨°à¨®à¨¿à¨¯à¨¾à¨¹ 2:13 à¨¤à©à¨ à¨ªà©à¨°à¨à¨¾à¨° à¨à©à¨¤à¨¾à¥¤",
+          "description_ur": "Ø³ÛÙÙ¹ Ù¾Ø§Ù ÚØ±Ú 1836 ÙÛÚº Ú©Ú¾ÙÙØ§ Ú¯ÛØ§Û Ø§Ù¾Ø±ÛÙ 1839 ÙÛÚºØ ÚØ±Ú Ú©Û Ù¾ÛÙÛ ÙÚ©Ø± Ø±ÛÙØ±ÙÚ Ø¬ÛÙØ² ÙØ±Ø§ÙØ³Ø³ ÙÛ ÛØ±ÙÛØ§Û 2:13 Ø³Û ØªØ¨ÙÛØº Ú©ÛÛ",
+          "description_hu": "A St. Paul's Church 1836-ban nyÃ­lt meg. 1839 Ã¡prilisÃ¡ban James Francis tiszteletes, az egyhÃ¡z elsÅ vikÃ¡riusa JeremiÃ¡s 2:13-bÃ³l prÃ©dikÃ¡lt.",
           "lat": 51.5831427,
           "lng": -2.993029,
           "radiusMetres": 60,
@@ -272,6 +352,13 @@
           "title_pa": "ਸੇਂਟ ਪੌਲ ਵਾਕ",
           "title_ur": "سینٹ پال واک",
           "title_hu": "Szent Pál sétány",
+          "description": "Women contributed one in five of all signatures on the National Petition to Parliament in 1839, even though the Charter would not give them the vote. The seven mosaics on St. Paul's Walk honour 100 years of women's history and remember several significant Newport women including Mary Brewer and Joan Williams who supported the Chartists.",
+          "description_cy": "Cyfrannodd menywod un o bob pump o'r holl lofnodion ar y Ddeiseb Genedlaethol i'r Senedd yn 1839, er na fyddai'r Siarter yn rhoi'r bleidlais iddynt.",
+          "description_pl": "Kobiety zÅoÅ¼yÅy jeden na piÄÄ wszystkich podpisÃ³w pod PetycjÄ NarodowÄ do Parlamentu w 1839 roku, mimo Å¼e Karta nie dawaÅaby im prawa gÅosu.",
+          "description_uk": "ÐÑÐ½ÐºÐ¸ Ð¿Ð¾ÑÑÐ°Ð²Ð¸Ð»Ð¸ ÐºÐ¾Ð¶ÐµÐ½ Ð¿'ÑÑÐ¸Ð¹ Ð¿ÑÐ´Ð¿Ð¸Ñ Ð¿ÑÐ´ Ð½Ð°ÑÑÐ¾Ð½Ð°Ð»ÑÐ½Ð¾Ñ Ð¿ÐµÑÐ¸ÑÑÑÑ Ð´Ð¾ Ð¿Ð°ÑÐ»Ð°Ð¼ÐµÐ½ÑÑ Ð² 1839 ÑÐ¾ÑÑ, ÑÐ¾ÑÐ° Ð¥Ð°ÑÑÑÑ Ð½Ðµ Ð´Ð°Ð²Ð°Ð»Ð° ÑÐ¼ Ð¿ÑÐ°Ð²Ð° Ð³Ð¾Ð»Ð¾ÑÑ.",
+          "description_pa": "à¨à¨°à¨¤à¨¾à¨ à¨¨à© 1839 à¨µà¨¿à©±à¨ à¨¸à©°à¨¸à¨¦ à¨¨à©à©° à¨¦à¨¿à©±à¨¤à© à¨à¨ à¨°à¨¾à¨¸à¨¼à¨à¨°à© à¨ªà¨à©à¨¸à¨¼à¨¨ 'à¨¤à© à¨¸à¨¾à¨°à© à¨¦à¨¸à¨¤à¨à¨¤à¨¾à¨ à¨µà¨¿à©±à¨à©à¨ à¨ªà©°à¨ à¨µà¨¿à©±à¨à©à¨ à¨à©±à¨ à¨¦à¨¾ à¨¯à©à¨à¨¦à¨¾à¨¨ à¨ªà¨¾à¨à¨à¥¤",
+          "description_ur": "Ø®ÙØ§ØªÛÙ ÙÛ 1839 ÙÛÚº Ù¾Ø§Ø±ÙÛÙÙÙ¹ ÙÛÚº ÙÙÙÛ Ù¾Ù¹ÛØ´Ù Ù¾Ø± Ø¯Ø³ØªØ®Ø·ÙÚº ÙÛÚº Ø³Û Ù¾Ø§ÙÚ ÙÛÚº Ø³Û Ø§ÛÚ© Ø­ØµÛ ÚØ§ÙØ§Û",
+          "description_hu": "A nÅk 1839-ben a parlamenthez benyÃºjtott nemzeti petÃ­ciÃ³ minden Ã¶tÃ¶dik alÃ¡Ã­rÃ¡sÃ¡t adtÃ¡k.",
           "lat": 51.5832785,
           "lng": -2.9927917,
           "radiusMetres": 60,
@@ -296,6 +383,13 @@
           "title_pa": "Cwrt-Y-Bella",
           "title_ur": "Cwrt-Y-Bella",
           "title_hu": "Cwrt-Y-Bella",
+          "description": "At approximately 8am on Monday 4 November 1839, the Chartists paused at the Cwrt-y-bella weighing machine near this site, after walking through the night from the Valleys. They received news that troops had occupied the Westgate Inn. Led by Frost and Jack the Fifer, they marched in military formation towards the turnpike gate on Stow Hill.",
+          "description_cy": "Am oddeutu 8 o'r gloch fore Llun 4 Tachwedd 1839, seibiodd y Siartwyr wrth beiriant pwyso Cwrt-y-bella ger y safle hwn, ar ol cerdded drwy'r nos o'r Cymoedd.",
+          "description_pl": "OkoÅo godziny 8 rano w poniedziaÅek 4 listopada 1839 roku czartyÅci zatrzymali siÄ przy wadze Cwrt-y-bella w pobliÅ¼u tego miejsca, po caÅonocnym marszu z dolin.",
+          "description_uk": "ÐÑÐ¸Ð±Ð»Ð¸Ð·Ð½Ð¾ Ð¾ 8 Ð³Ð¾Ð´Ð¸Ð½Ñ ÑÐ°Ð½ÐºÑ Ð² Ð¿Ð¾Ð½ÐµÐ´ÑÐ»Ð¾Ðº, 4 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° 1839 ÑÐ¾ÐºÑ, ÑÐ°ÑÑÐ¸ÑÑÐ¸ Ð·ÑÐ¿Ð¸Ð½Ð¸Ð»Ð¸ÑÑ Ð±ÑÐ»Ñ Ð·Ð²Ð°Ð¶ÑÐ²Ð°Ð»ÑÐ½Ð¾Ñ Ð¼Ð°ÑÐ¸Ð½Ð¸ Cwrt-Y-Bella Ð½ÐµÐ¿Ð¾Ð´Ð°Ð»ÑÐº Ð²ÑÐ´ ÑÑÐ¾Ð³Ð¾ Ð¼ÑÑÑÑ, Ð¿ÑÑÐ»Ñ Ð½ÑÑÐ½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÑ Ð· Ð´Ð¾Ð»Ð¸Ð½.",
+          "description_pa": "à¨¸à©à¨®à¨µà¨¾à¨° 4 à¨¨à¨µà©°à¨¬à¨° 1839 à¨¨à©à©° à¨¸à¨µà©à¨°à© à¨²à¨à¨­à¨ 8 à¨µà¨à©, à¨à¨¾à¨°à¨à¨¿à¨¸à¨à¨¾à¨ à¨¨à© à¨à¨¾à¨à©à¨à¨ à¨¤à©à¨ à¨°à¨¾à¨¤ à¨­à¨° à¨¤à©à¨°à¨¨ à¨¤à©à¨ à¨¬à¨¾à¨à¨¦, à¨à¨¸ à¨¸à¨¾à¨à¨ à¨¦à© à¨¨à©à©à© Cwrt-y-bella à¨¤à©à¨²à¨£ à¨µà¨¾à¨²à© à¨®à¨¸à¨¼à©à¨¨ 'à¨¤à© à¨°à©à¨à¨¿à¨à¥¤",
+          "description_ur": "Ù¾ÛØ± 4 ÙÙÙØ¨Ø± 1839 Ú©Û ØµØ¨Ø­ ØªÙØ±ÛØ¨Ø§Ù 8 Ø¨Ø¬ÛØ ÚØ§Ø±Ù¹Ø³Ù¹ ÙØ§Ø¯ÛÙÚº Ø³Û Ø±Ø§Øª Ø¨Ú¾Ø± ÚÙÙÛ Ú©Û Ø¨Ø¹Ø¯Ø Ø§Ø³ Ø³Ø§Ø¦Ù¹ Ú©Û ÙØ±ÛØ¨ Cwrt-y-bella ÙØ²ÙÛ ÙØ´ÛÙ Ù¾Ø± Ø±Ú© Ú¯Ø¦ÛÛ",
+          "description_hu": "1839. november 4-Ã©n, hÃ©tfÅn kÃ¶rÃ¼lbelÃ¼l reggel 8 Ã³rakor a ChartistÃ¡k megÃ¡lltak a Cwrt-y-bella mÃ©rlegnÃ©l e hely kÃ¶zelÃ©ben, miutÃ¡n egÃ©sz Ã©jszaka gyalogoltak a vÃ¶lgyekbÅl.",
           "lat": 51.578125,
           "lng": -3.0010418,
           "radiusMetres": 60,
@@ -311,7 +405,7 @@
           "communityContent": [],
           "credits": ""
         },
-                {
+        {
           "number": 13,
           "title": "Belle Vue Park Pavilion",
           "title_cy": "Pafiliwn Parc Belle Vue",
@@ -320,6 +414,13 @@
           "title_pa": "ਬੇਲੇ ਵਿਊ ਪਾਰਕ ਪੈਵਿਲੀਅਨ",
           "title_ur": "بیلے ویو پارک پویلین",
           "title_hu": "Belle Vue Park Pavilon",
+          "description": "On 4th November 1839, the Chartists stopped to regroup at Cwrt-y-bella weighing machine which stood on Cardiff Road just below this site. After enjoying this beautiful park which opened in 1894, you can rejoin the Chartist Trail either at the car park gate, or at the bottom lodge gate.",
+          "description_cy": "Ar 4 Tachwedd 1839, stopiodd y Siartwyr i ail-grwpio wrth beiriant pwyso Cwrt-y-bella a oedd yn sefyll ar Cardiff Road ychydig islaw'r safle hwn.",
+          "description_pl": "4 listopada 1839 roku czartyÅci zatrzymali siÄ, aby siÄ przegrupowaÄ przy wadze Cwrt-y-bella, ktÃ³ra staÅa na Cardiff Road tuÅ¼ poniÅ¼ej tego miejsca.",
+          "description_uk": "4 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° 1839 ÑÐ¾ÐºÑ ÑÐ°ÑÑÐ¸ÑÑÐ¸ Ð·ÑÐ¿Ð¸Ð½Ð¸Ð»Ð¸ÑÑ Ð´Ð»Ñ Ð¿ÐµÑÐµÐ³ÑÑÐ¿ÑÐ²Ð°Ð½Ð½Ñ Ð±ÑÐ»Ñ Ð·Ð²Ð°Ð¶ÑÐ²Ð°Ð»ÑÐ½Ð¾Ñ Ð¼Ð°ÑÐ¸Ð½Ð¸ Cwrt-Y-Bella, ÑÐºÐ° ÑÑÐ¾ÑÐ»Ð° Ð½Ð° Cariff Road ÑÑÐ¾ÑÐ¸ Ð½Ð¸Ð¶ÑÐµ ÑÑÐ¾Ð³Ð¾ Ð¼ÑÑÑÑ.",
+          "description_pa": "4 à¨¨à¨µà©°à¨¬à¨° 1839 à¨¨à©à©°, à¨à¨¾à¨°à¨à¨¿à¨¸à¨à¨¾à¨ à¨¨à© Cwrt-y-bella à¨¤à©à¨²à¨£ à¨µà¨¾à¨²à© à¨®à¨¸à¨¼à©à¨¨ 'à¨¤à© à¨¦à©à¨¬à¨¾à¨°à¨¾ à¨à¨à©±à¨ à© à¨¹à©à¨£ à¨²à¨ à¨°à©à¨à¨¿à¨ à¨à© à¨à¨¸ à¨¸à¨¾à¨à¨ à¨¦à© à¨¬à¨¿à¨²à¨à©à¨² à¨¹à©à¨ à¨¾à¨ à¨à¨¾à¨°à¨¡à¨¿à¨« à¨°à©à¨¡ 'à¨¤à© à¨à©à©à¨¹à© à¨¸à©à¥¤",
+          "description_ur": "4 ÙÙÙØ¨Ø± 1839 Ú©ÙØ ÚØ§Ø±Ù¹Ø³Ù¹ Cwrt-y-bella ÙØ²ÙÛ ÙØ´ÛÙ Ù¾Ø± Ø¯ÙØ¨Ø§Ø±Û Ø¬ÙØ¹ ÛÙÙÛ Ú©Û ÙÛÛ Ø±Ú©Û Ø¬Ù Ø§Ø³ Ø³Ø§Ø¦Ù¹ Ø³Û Ø¨Ø§ÙÚ©Ù ÙÛÚÛ Ú©Ø§Ø±ÚÙ Ø±ÙÚ Ù¾Ø± Ú©Ú¾ÚÛ ØªÚ¾ÛÛ",
+          "description_hu": "1839. november 4-Ã©n a ChartistÃ¡k megÃ¡lltak, hogy Ãºjra csoportosuljanak a Cwrt-y-bella mÃ©rlegnÃ©l, amely a Cardiff Roadon Ã¡llt, kÃ¶zvetlenÃ¼l e hely alatt.",
           "lat": 51.5790683,
           "lng": -3.0027178,
           "radiusMetres": 60,
@@ -349,7 +450,7 @@
           "communityContent": [],
           "credits": ""
         },
-               {
+        {
           "number": 14,
           "title": "The Friars",
           "title_cy": "Y Friars",
@@ -358,6 +459,13 @@
           "title_pa": "ਦ ਫ੍ਰਾਇਅਰਜ਼",
           "title_ur": "دی فریئرز",
           "title_hu": "A Kolostor",
+          "description": "Nearby stands the Friars which was built in the early 1840s for Octavius Morgan, magistrate, MP and eighth son of Sir Charles Morgan of Tredegar Park. He examined prisoners and witnesses after the Rising, served on the Grand Jury in Shire Hall, Monmouth, and campaigned against pardons for the Chartist leaders throughout the 1840s.",
+          "description_cy": "Gerllaw saif y Friars a adeiladwyd yn gynnar yn y 1840au ar gyfer Octavius Morgan, ynad, AS ac wythfed mab Syr Charles Morgan o Barc Tredegar.",
+          "description_pl": "W pobliÅ¼u stoi Friars, zbudowany na poczÄtku lat 40. XIX wieku dla Octaviusa Morgana, sÄdziego, posÅa i Ã³smego syna Sir Charlesa Morgana z Tredegar Park.",
+          "description_uk": "ÐÐµÐ¿Ð¾Ð´Ð°Ð»ÑÐº ÑÑÐ¾ÑÑÑ Ð¼Ð¾Ð½Ð°ÑÑÐ¸Ñ, Ð¿Ð¾Ð±ÑÐ´Ð¾Ð²Ð°Ð½Ð¸Ð¹ Ð½Ð° Ð¿Ð¾ÑÐ°ÑÐºÑ 1840-Ñ ÑÐ¾ÐºÑÐ² Ð´Ð»Ñ ÐÐºÑÐ°Ð²ÑÑ ÐÐ¾ÑÐ³Ð°Ð½Ð°, ÑÑÐ´Ð´Ñ, ÑÐ»ÐµÐ½Ð° Ð¿Ð°ÑÐ»Ð°Ð¼ÐµÐ½ÑÑ Ñ Ð²Ð¾ÑÑÐ¼Ð¾Ð³Ð¾ ÑÐ¸Ð½Ð° ÑÐµÑÐ° Ð§Ð°ÑÐ»ÑÐ·Ð° ÐÐ¾ÑÐ³Ð°Ð½Ð° Ð· Tredegar Park.",
+          "description_pa": "à¨¨à©à©à© à¨«à©à¨°à¨¾à¨à¨à¨°à¨¸ à¨à©à©à¨¹à¨¾ à¨¹à© à¨à© 1840 à¨¦à© à¨¦à¨¹à¨¾à¨à© à¨¦à© à¨¸à¨¼à©à¨°à© à¨µà¨¿à©±à¨ à¨à¨à¨à©à¨µà©à¨à¨¸ à¨®à©à¨°à¨à¨¨, à¨®à©à¨à¨¿à¨¸à¨à©à¨°à©à¨, à¨à¨®à¨ªà© à¨à¨¤à© à¨à©à¨°à©à¨¡à©à¨à¨° à¨ªà¨¾à¨°à¨ à¨¦à© à¨¸à¨° à¨à¨¾à¨°à¨²à¨¸ à¨®à©à¨°à¨à¨¨ à¨¦à© à¨à©±à¨ à¨µà©à¨ à¨ªà©à©±à¨¤à¨° à¨²à¨ à¨¬à¨£à¨¾à¨à¨ à¨à¨¿à¨ à¨¸à©à¥¤",
+          "description_ur": "ÙØ±ÛØ¨ ÛÛ ÙØ±ÛØ¦Ø±Ø² Ú©Ú¾ÚØ§ ÛÛ Ø¬Ù 1840 Ú©Û Ø¯ÛØ§Ø¦Û Ú©Û Ø§ÙØ§Ø¦Ù ÙÛÚº Ø¢Ú©Ù¹ÛÙØ¦Ø³ ÙÙØ±Ú¯ÙØ ÙØ¬Ø³Ù¹Ø±ÛÙ¹Ø Ø§ÛÙ Ù¾Û Ø§ÙØ± Ù¹Ø±ÛÚÛÚ¯Ø± Ù¾Ø§Ø±Ú© Ú©Û Ø³Ø± ÚØ§Ø±ÙØ³ ÙÙØ±Ú¯Ù Ú©Û Ø¢Ù¹Ú¾ÙÛÚº Ø¨ÛÙ¹Û Ú©Û ÙÛÛ Ø¨ÙØ§ÛØ§ Ú¯ÛØ§ ØªÚ¾Ø§Û",
+          "description_hu": "A kÃ¶zelben Ã¡ll a Friars, amelyet az 1840-es Ã©vek elejÃ©n Ã©pÃ­tettek Octavius Morgan bÃ­rÃ³nak, parlamenti kÃ©pviselÅnek Ã©s Sir Charles Morgan nyolcadik fiÃ¡nak.",
           "lat": 51.5811899,
           "lng": -3.0010915,
           "radiusMetres": 60,
@@ -382,6 +490,13 @@
           "title_pa": "ਦ ਵਰਕਹਾਊਸ",
           "title_ur": "ورک ہاؤس",
           "title_hu": "A Munkaház",
+          "description": "This was where Captain Stack and 70 infantrymen of the 45th Regiment were stationed in the new workhouse. As the Chartists passed the Stow Hill turnpike on the morning of 4 November, they could see the soldiers on guard at their makeshift barracks. After the Rising, the workhouse served as both a prison camp and hospital.",
+          "description_cy": "Dyma lle roedd Capten Stack a 70 o wyr traed y 45ain Gatrawd wedi'u lleoli yn y tloty newydd.",
+          "description_pl": "To tutaj kapitan Stack i 70 piechurÃ³w z 45. puÅku byÅo stacjonowanych w nowym przytuÅku. Gdy czartyÅci przeszli obok rogatki Stow Hill rano 4 listopada, mogli zobaczyÄ Å¼oÅnierzy na straÅ¼y przy ich prowizorycznych koszarach.",
+          "description_uk": "Ð¡Ð°Ð¼Ðµ ÑÑÑ ÑÐ¾Ð·Ð¼ÑÑÑÐ¸Ð»Ð¸ÑÑ ÐºÐ°Ð¿ÑÑÐ°Ð½ Ð¡ÑÐµÐº Ñ 70 Ð¿ÑÑÐ¾ÑÐ¸Ð½ÑÑÐ² 45-Ð³Ð¾ Ð¿Ð¾Ð»ÐºÑ. ÐÑÐ¾ÑÐ¶Ð´Ð¶Ð°ÑÑÐ¸ Ð²ÑÐ°Ð½ÑÑ 4 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° Ð¿Ð¾Ð²Ð· Ð¿Ð¾Ð²Ð¾ÑÐ¾Ñ Ð½Ð° Stow Hill, ÑÐ°ÑÑÐ¸ÑÑÐ¸ Ð¿Ð¾Ð±Ð°ÑÐ¸Ð»Ð¸ ÑÐ¾Ð»Ð´Ð°ÑÑÐ², ÑÐºÑ ÑÐµÑÐ³ÑÐ²Ð°Ð»Ð¸ Ð±ÑÐ»Ñ ÑÐ¼Ð¿ÑÐ¾Ð²ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ ÐºÐ°Ð·Ð°ÑÐ¼.",
+          "description_pa": "à¨à¨¹ à¨à¨¹ à¨¥à¨¾à¨ à¨¸à© à¨à¨¿à©±à¨¥à© à¨à©à¨ªà¨à¨¨ à¨¸à¨à©à¨ à¨à¨¤à© 45à¨µà©à¨ à¨°à©à¨à©à¨®à©à¨à¨ à¨¦à© 70 à¨ªà©à¨¦à¨² à¨à¨µà¨¾à¨¨ à¨¨à¨µà©à¨ à¨µà¨°à¨à¨¹à¨¾à¨à¨¸ à¨µà¨¿à©±à¨ à¨¤à¨¾à¨à¨¨à¨¾à¨¤ à¨¸à¨¨à¥¤",
+          "description_ur": "ÛÛ ÙÛ Ø¬Ú¯Û ØªÚ¾Û Ø¬ÛØ§Úº ÙØ¦Û ÙØ±Ú© ÛØ§Ø¤Ø³ ÙÛÚº Ú©ÛÙ¾Ù¹Ù Ø§Ø³Ù¹ÛÚ© Ø§ÙØ± 45ÙÛÚº Ø±Ø¬ÙÙÙ¹ Ú©Û 70 Ø§ÙÙÙÙ¹Ø±Û ÙÛÙ ØªØ¹ÛÙØ§Øª ØªÚ¾ÛÛ",
+          "description_hu": "Itt volt Ã¡llomÃ¡sozva Stack kapitÃ¡ny Ã©s a 45. ezred 70 gyalogosa az Ãºj munkahÃ¡zban.",
           "lat": 51.5826232,
           "lng": -3.0027222,
           "radiusMetres": 60,
@@ -397,7 +512,7 @@
           "communityContent": [],
           "credits": ""
         },
-                       {
+        {
           "number": 16,
           "title": "St. Woolos Square",
           "title_cy": "Sgwâr Sant Woolos",
@@ -406,6 +521,13 @@
           "title_pa": "ਸੇਂਟ ਵੂਲੋਸ ਸਕੁਆਇਰ",
           "title_ur": "سینٹ وولوس اسکوائر",
           "title_hu": "Szent Woolos tér",
+          "description": "The Chartist force of more than 5000 men passed through here on the morning of November 4th before marching down Stow Hill and into the town.",
+          "description_cy": "Fe basiodd llur Siartwyr o fwy na 5000 o ddynion yma ar fore Tachwedd 4ydd cyn martsio i lawr Stow Hill ac i mewn i'r dref.",
+          "description_pl": "SiÅy czartystÃ³w liczÄce ponad 5000 ludzi przeszÅy tÄdy rano 4 listopada, zanim zeszÅy Stow Hill i wkroczyÅy do miasta.",
+          "description_uk": "Ð§Ð°ÑÑÐ¸ÑÑÐ¸, ÑÐ¸ÑÐµÐ»ÑÐ½ÑÑÑÑ Ð¿Ð¾Ð½Ð°Ð´ 5000 ÑÐ¾Ð»Ð¾Ð²ÑÐº, Ð¿ÑÐ¾Ð¹ÑÐ»Ð¸ ÑÑÑ Ð²ÑÐ°Ð½ÑÑ 4 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° Ð¿ÐµÑÐµÐ´ ÑÐ¸Ð¼, ÑÐº Ð²Ð¸ÑÑÑÐ¸ÑÐ¸ Ð²Ð½Ð¸Ð· Ð¿Ð¾ Stow Hill Ð´Ð¾ Ð¼ÑÑÑÐ°.",
+          "description_pa": "5000 à¨¤à©à¨ à¨µà©±à¨§ à¨à¨¦à¨®à©à¨à¨ à¨¦à© à¨à¨¾à¨°à¨à¨¿à¨¸à¨ à¨«à©à¨°à¨¸ 4 à¨¨à¨µà©°à¨¬à¨° à¨¦à© à¨¸à¨µà©à¨° à¨¨à©à©° à¨¸à¨à© à¨¹à¨¿à©±à¨² à¨à¨¤à© à¨¸à¨¼à¨¹à¨¿à¨° à¨µà¨¿à©±à¨ à¨®à¨¾à¨°à¨ à¨à¨°à¨¨ à¨¤à©à¨ à¨ªà¨¹à¨¿à¨²à¨¾à¨ à¨à©±à¨¥à©à¨ à¨²à©°à¨à©à¥¤",
+          "description_ur": "5000 Ø³Û Ø²ÛØ§Ø¯Û Ø¢Ø¯ÙÛÙÚº Ù¾Ø± ÙØ´ØªÙÙ ÚØ§Ø±Ù¹Ø³Ù¹ ÙÙØ±Ø³ 4 ÙÙÙØ¨Ø± Ú©Û ØµØ¨Ø­ ÛÛØ§Úº Ø³Û Ú¯Ø²Ø±Û Ø§ÙØ± Ø³Ù¹Ù ÛÙ Ù¾Ø± ÙØ§Ø±Ú Ú©Ø±ÙÛ Ø³Û Ù¾ÛÙÛÛ",
+          "description_hu": "A tÃ¶bb mint 5000 fÅs chartista haderÅ november 4-Ã©n reggel haladt Ã¡t itt, mielÅtt levonult a Stow Hill-rÅl a vÃ¡rosba.",
           "lat": 51.58295,
           "lng": -2.9999113,
           "radiusMetres": 60,
@@ -427,7 +549,7 @@
           ],
           "credits": "Images: © Newport Rising."
         },
-               {
+        {
           "number": 17,
           "title": "The Six Bells",
           "title_cy": "Y Chwech Cloch",
@@ -436,6 +558,13 @@
           "title_pa": "ਦ ਸਿਕਸ ਬੈਲਜ਼",
           "title_ur": "دی سکس بیلز",
           "title_hu": "A Hat Harang",
+          "description": "After the Newport Rising in 1839, 18 year-old Susan Stephens gave testimony to Newport Magistrates, stating that she '...saw the prisoner Lovell passing her house the Six Bells on Stow Hill with a crowd with a gun in his hand.'",
+          "description_cy": "Ar ol Gwrthryfel Casnewydd yn 1839, rhoddodd Susan Stephens, 18 oed, dystiolaeth i Ynadon Casnewydd.",
+          "description_pl": "Po Powstaniu w Newport w 1839 roku, 18-letnia Susan Stephens zÅoÅ¼yÅa zeznanie przed sÄdziami Newport, mÃ³wiÄc, Å¼e widziaÅa wiÄÅºnia Lovella przechodzÄcego obok jej domu Six Bells na Stow Hill z tÅumem, z broniÄ w rÄku.",
+          "description_uk": "ÐÑÑÐ»Ñ Ð½ÑÑÐ¿Ð¾ÑÑÑÑÐºÐ¾Ð³Ð¾ Ð¿Ð¾Ð²ÑÑÐ°Ð½Ð½Ñ 1839 ÑÐ¾ÐºÑ, 18-ÑÑÑÐ½Ð° Ð¡ÑÑÐ·ÐµÐ½ Ð¡ÑÑÐ²ÐµÐ½Ñ Ð´Ð°Ð»Ð° ÑÐ²ÑÐ´ÑÐµÐ½Ð½Ñ Ð½ÑÑÐ¿Ð¾ÑÑÑÑÐºÐ¾Ð¼Ñ Ð¼Ð°Ð³ÑÑÑÑÐ°ÑÑ.",
+          "description_pa": "1839 à¨¦à© à¨¨à¨¿à¨à¨ªà©à¨°à¨ à¨°à¨¾à¨à¨à¨¼à¨¿à©°à¨ à¨¤à©à¨ à¨¬à¨¾à¨à¨¦, 18 à¨¸à¨¾à¨² à¨¦à© à¨¸à©à¨à¨¼à¨¨ à¨¸à¨à©à¨«à¨¨à¨à¨¼ à¨¨à© à¨¨à¨¿à¨à¨ªà©à¨°à¨ à¨®à©à¨à¨¿à¨¸à¨à©à¨°à©à¨ à¨¨à©à©° à¨à¨µà¨¾à¨¹à© à¨¦à¨¿à©±à¨¤à©à¥¤",
+          "description_ur": "1839 Ú©Û ÙÛÙÙ¾ÙØ±Ù¹ Ø±Ø§Ø¦Ø²ÙÚ¯ Ú©Û Ø¨Ø¹Ø¯Ø 18 Ø³Ø§ÙÛ Ø³ÙØ³Ù Ø³Ù¹ÛÙÙØ² ÙÛ ÙÛÙÙ¾ÙØ±Ù¹ ÙØ¬Ø³Ù¹Ø±ÛÙ¹Ø³ Ú©Û Ø³Ø§ÙÙÛ Ú¯ÙØ§ÛÛ Ø¯ÛÛ",
+          "description_hu": "Az 1839-es Newport-felkelÃ©s utÃ¡n a 18 Ã©ves Susan Stephens tanÃºvallomÃ¡st tett Newport Magistratesnek.",
           "lat": 51.5827499,
           "lng": -2.9988921,
           "radiusMetres": 60,
@@ -451,7 +580,7 @@
           "communityContent": [],
           "credits": "Image: © Newport Rising."
         },
-               {
+        {
           "number": 18,
           "title": "Newport Cathedral, St Woolos",
           "title_cy": "Cadeirlan Casnewydd, Sant Woolos",
@@ -460,6 +589,13 @@
           "title_pa": "ਨਿਊਪੋਰਟ ਕੈਥੇਡ੍ਰਲ, ਸੇਂਟ ਵੂਲੋਸ",
           "title_ur": "نیوپورٹ کیتھیڈرل، سینٹ وولوس",
           "title_hu": "Newporti Székesegyház, Szent Woolos",
+          "description": "On 11 August 1839, a large group of Chartists attended a service at St. Woolos. During the night of Thursday 7 November 1839, the authorities moved the bodies of ten Chartists from the stables of the Westgate Inn. They buried them in four unmarked graves in St Woolos Churchyard, on the north side of St. Mary's Chapel.",
+          "description_cy": "Ar 11 Awst 1839, mynychodd grÅµp mawr o Siartwyr wasanaeth yn Sant Gwynllyw. Yn ystod nos Iau 7 Tachwedd 1839, symudodd yr awdurdodau gyrff deg Siartwraig o stablau'r Westgate Inn.",
+          "description_pl": "11 sierpnia 1839 roku duÅ¼a grupa czartystÃ³w uczestniczyÅa w naboÅ¼eÅstwie w St. Woolos. W nocy z czwartku 7 listopada 1839 roku wÅadze przeniosÅy ciaÅa dziesiÄciu czartystÃ³w ze stajni Westgate Inn.",
+          "description_uk": "11 ÑÐµÑÐ¿Ð½Ñ 1839 ÑÐ¾ÐºÑ, Ð²ÐµÐ»Ð¸ÐºÐ° Ð³ÑÑÐ¿Ð° ÑÐ°ÑÑÐ¸ÑÑÑÐ² Ð²ÑÐ´Ð²ÑÐ´Ð°Ð»Ð° ÑÐ»ÑÐ¶Ð±Ñ Ð² ÑÐµÑÐºÐ²Ñ Ð¡Ð²ÑÑÐ¾Ð³Ð¾ ÐÑÐ»Ð¾ÑÐ°. Ð£ Ð½ÑÑ Ð½Ð° ÑÐµÑÐ²ÐµÑ, 7 Ð»Ð¸ÑÑÐ¾Ð¿Ð°Ð´Ð° 1839 ÑÐ¾ÐºÑ, Ð²Ð»Ð°Ð´Ð° Ð¿ÐµÑÐµÐ½ÐµÑÐ»Ð° ÑÑÐ»Ð° Ð´ÐµÑÑÑÐ¸ ÑÐ°ÑÑÐ¸ÑÑÑÐ² Ð· ÐºÐ¾Ð½ÑÑÐ½Ñ Ð³Ð¾ÑÐµÐ»Ñ ÐÐµÑÑÐ³ÐµÐ¹Ñ.",
+          "description_pa": "11 à¨à¨à¨¸à¨¤ 1839 à¨¨à©à©°, à¨à¨¾à¨°à¨à¨¿à¨¸à¨à¨¾à¨ à¨¦à¨¾ à¨à©±à¨ à¨µà©±à¨¡à¨¾ à¨¸à¨®à©à¨¹ à¨¸à©à¨à¨ à¨µà©à¨²à©à¨¸ à¨µà¨¿à¨à© à¨à©±à¨ à¨¸à©à¨µà¨¾ à¨µà¨¿à©±à¨ à¨¸à¨¼à¨¾à¨®à¨² à¨¹à©à¨à¨à¥¤",
+          "description_ur": "11 Ø§Ú¯Ø³Øª 1839 Ú©ÙØ ÚØ§Ø±Ù¹Ø³Ù¹ÙÚº Ú©Û Ø§ÛÚ© Ø¨ÚÛ Ú¯Ø±ÙÙ¾ ÙÛ Ø³ÛÙÙ¹ ÙÙÙÙØ³ ÙÛÚº Ø§ÛÚ© Ø³Ø±ÙØ³ ÙÛÚº Ø´Ø±Ú©Øª Ú©ÛÛ",
+          "description_hu": "1839. augusztus 11-Ã©n chartistÃ¡k nagy csoportja vett rÃ©szt egy istentiszteleten St. Woolosban.",
           "lat": 51.583034,
           "lng": -2.9985468,
           "radiusMetres": 60,
@@ -476,7 +612,7 @@
           "communityContent": [],
           "credits": "Images: Newport Cathedral by Owain, via Wikimedia Commons, CC BY-SA 2.5 (creativecommons.org/licenses/by-sa/2.5). Chartist memorial stone: © Newport Rising."
         },
-               {
+        {
           "number": 19,
           "title": "Cross House",
           "title_cy": "Tŷ'r Groes",
@@ -485,6 +621,13 @@
           "title_pa": "ਕਰਾਸ ਹਾਊਸ",
           "title_ur": "کراس ہاؤس",
           "title_hu": "Kereszt Ház",
+          "description": "In 1839, Edward Hopkins, the Superintendent of the Newport Police who arrested Frost after the Rising, lived in a house at this site. It also served as a police station. After the battle at the Westgate, more than 150 weapons abandoned by the Chartists were collected and brought to Hopkins' home.",
+          "description_cy": "Ym 1839 roedd Edward Hopkins, Uwcharolygydd Heddlu Casnewydd a arestiodd Frost ar ol y Gwrthryfel, yn byw mewn ty ar y safle hwn.",
+          "description_pl": "W 1839 roku Edward Hopkins, nadinspektor policji w Newport, ktÃ³ry aresztowaÅ Frosta po powstaniu, mieszkaÅ w domu na tym miejscu. SÅuÅ¼yÅ on rÃ³wnieÅ¼ jako komisariat policji.",
+          "description_uk": "Ð£ 1839 ÑÐ¾ÑÑ, ÐÐ´Ð²Ð°ÑÐ´ ÐÐ¾Ð¿ÐºÑÐ½Ñ, ÐºÐµÑÑÐ²Ð½Ð¸Ðº Ð¿Ð¾Ð»ÑÑÑÑ ÐÑÑÐ¿Ð¾ÑÑÐ°, ÑÐºÐ¸Ð¹ Ð·Ð°Ð°ÑÐµÑÑÑÐ²Ð°Ð² Ð¤ÑÐ¾ÑÑÐ° Ð¿ÑÑÐ»Ñ Ð¿Ð¾Ð²ÑÑÐ°Ð½Ð½Ñ, Ð¶Ð¸Ð² Ñ Ð±ÑÐ´Ð¸Ð½ÐºÑ Ð½Ð° ÑÑÐ¹ Ð´ÑÐ»ÑÐ½ÑÑ.",
+          "description_pa": "1839 à¨µà¨¿à©±à¨, à¨¨à¨¿à¨à¨ªà©à¨°à¨ à¨ªà©à¨²à¨¿à¨¸ à¨¦à¨¾ à¨¸à©à¨ªà¨°à¨¡à©à¨à¨ à¨à¨¡à¨µà¨°à¨¡ à¨¹à©à¨ªà¨à¨¿à¨¨à¨à¨¼, à¨à¨¿à¨¸à¨¨à© à¨°à¨¾à¨à¨à¨¼à¨¿à©°à¨ à¨¤à©à¨ à¨¬à¨¾à¨à¨¦ à¨«à¨°à©à¨¸à¨ à¨¨à©à©° à¨à©à¨°à¨¿à¨«à¨¤à¨¾à¨° à¨à©à¨¤à¨¾ à¨¸à©, à¨à¨¸ à¨¸à¨¾à¨à¨ 'à¨¤à© à¨à©±à¨ à¨à¨° à¨µà¨¿à©±à¨ à¨°à¨¹à¨¿à©°à¨¦à¨¾ à¨¸à©à¥¤",
+          "description_ur": "1839 ÙÛÚº ÙÛÙÙ¾ÙØ±Ù¹ Ù¾ÙÙÛØ³ Ú©Ø§ Ø³Ù¾Ø±ÙÙ¹ÙÚÙÙ¹ Ø§ÛÚÙØ±Ú ÛØ§Ù¾Ú©ÙØ² Ø¬Ø³ ÙÛ ÙØ±Ø§Ø³Ù¹ Ú©Ù Ø±Ø§Ø¦Ø²ÙÚ¯ Ú©Û Ø¨Ø¹Ø¯ Ú¯Ø±ÙØªØ§Ø± Ú©ÛØ§ ØªÚ¾Ø§Ø Ø§Ø³ Ø¬Ú¯Û Ù¾Ø± Ø§ÛÚ© ÙÚ©Ø§Ù ÙÛÚº Ø±ÛØªÛ ØªÚ¾ÛÛ",
+          "description_hu": "1839-ben Edward Hopkins, a Newport-i rendÅrsÃ©g felÃ¼gyelÅje, aki a felkelÃ©s utÃ¡n letartÃ³ztatta Frostot, egy hÃ¡zban lakott ezen a helyen.",
           "lat": 51.5856365,
           "lng": -2.9970789,
           "radiusMetres": 60,
@@ -500,7 +643,7 @@
           "communityContent": [],
           "credits": "Image: © Newport Rising."
         },
-               {
+        {
           "number": 20,
           "title": "St. Mary's Church",
           "title_cy": "Eglwys Santes Fair",
@@ -509,6 +652,13 @@
           "title_pa": "ਸੇਂਟ ਮੈਰੀਜ਼ ਚਰਚ",
           "title_ur": "سینٹ میریز چرچ",
           "title_hu": "Szent Mária templom",
+          "description": "The church was under construction at the time and the marchers called on the workmen to join them. A carpenter slammed the church doors shut to prevent the Chartists from entering and it is rumoured that some Chartists hid behind the altar after the battle at the Westgate to avoid detection by the soldiers and special constables.",
+          "description_cy": "Roedd yr eglwys yn cael ei hadeiladu ar y pryd a galwodd y gorymdeithwyr ar y gweithwyr i ymuno a nhw.",
+          "description_pl": "KoÅciÃ³Å byÅ wÃ³wczas w budowie, a maszerujÄcy wzywali robotnikÃ³w, by siÄ do nich przyÅÄczyli. Stolarz zatrzasnÄÅ drzwi koÅcioÅa, by uniemoÅ¼liwiÄ wejÅcie czartystom.",
+          "description_uk": "Ð£ ÑÐ¾Ð¹ ÑÐ°Ñ, ÑÐµÑÐºÐ²Ð° Ð¿ÐµÑÐµÐ±ÑÐ²Ð°Ð»Ð° Ð½Ð° ÑÑÐ°Ð´ÑÑ Ð±ÑÐ´ÑÐ²Ð½Ð¸ÑÑÐ²Ð°, Ñ ÑÑÐ°ÑÐ½Ð¸ÐºÐ¸ Ð¼Ð°ÑÑÑ Ð·Ð°ÐºÐ»Ð¸ÐºÐ°Ð»Ð¸ ÑÐ¾Ð±ÑÑÐ½Ð¸ÐºÑÐ² Ð¿ÑÐ¸ÑÐ´Ð½Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð½Ð¸Ñ.",
+          "description_pa": "à¨à¨¸ à¨¸à¨®à©à¨ à¨à¨°à¨ à¨à¨¸à¨¾à¨°à© à¨à¨§à©à¨¨ à¨¸à© à¨à¨¤à© à¨®à¨¾à¨°à¨ à¨à¨°à¨¨ à¨µà¨¾à¨²à¨¿à¨à¨ à¨¨à© à¨®à¨à¨¼à¨¦à©à¨°à¨¾à¨ à¨¨à©à©° à¨à¨¨à©à¨¹à¨¾à¨ à¨¨à¨¾à¨² à¨à©à©à¨¨ à¨²à¨ à¨à¨¿à¨¹à¨¾à¥¤",
+          "description_ur": "ÚØ±Ú Ø§Ø³ ÙÙØª Ø²ÛØ± ØªØ¹ÙÛØ± ØªÚ¾Ø§ Ø§ÙØ± ÙØ§Ø±Ú Ú©Ø±ÙÛ ÙØ§ÙÙÚº ÙÛ ÙØ²Ø¯ÙØ±ÙÚº Ú©Ù Ø§Ù Ú©Û Ø³Ø§ØªÚ¾ Ø´Ø§ÙÙ ÛÙÙÛ Ú©Û Ø¯Ø¹ÙØª Ø¯ÛÛ",
+          "description_hu": "Az egyhÃ¡z akkoriban mÃ©g Ã©pÃ­tÃ©s alatt Ã¡llt, Ã©s a felvonulÃ³k felszÃ³lÃ­tottÃ¡k a munkÃ¡sokat, hogy csatlakozzanak hozzÃ¡juk.",
           "lat": 51.5870281,
           "lng": -2.9968306,
           "radiusMetres": 60,
@@ -524,7 +674,7 @@
           "communityContent": [],
           "credits": "Image: St Mary's Church, Stow Hill, Newport by Reading Tom, via Wikimedia Commons, CC BY 2.0 (creativecommons.org/licenses/by/2.0)."
         },
-               {
+        {
           "number": 21,
           "title": "The Mayor's House",
           "title_cy": "Tŷ'r Maer",
@@ -533,6 +683,13 @@
           "title_pa": "ਮੇਅਰ ਦਾ ਘਰ",
           "title_ur": "میئر کا گھر",
           "title_hu": "A Polgármester Háza",
+          "description": "Mayor Thomas Phillips' house was at the bottom of Stow Hill facing the Westgate Hotel. Wounded during the attack on the Westgate Hotel, Phillips received a knighthood for defending the authority of Her Majesty.",
+          "description_cy": "Roedd ty'r Maer Thomas Phillips ar waelod Stow Hill yn wynebu Gwesty'r Westgate. Wedi'i anafu yn ystod yr ymosodiad ar Westy'r Westgate, derbyniodd Phillips farchogaeth am amddiffyn awdurdod Ei Mawrhydi.",
+          "description_pl": "Dom burmistrza Thomasa Phillipsa znajdowaÅ siÄ u podnÃ³Å¼a Stow Hill, naprzeciwko Westgate Hotel. Ranny podczas ataku na Westgate Hotel, Phillips otrzymaÅ tytuÅ szlachecki za obronÄ autorytetu Jej KrÃ³lewskiej MoÅci.",
+          "description_uk": "ÐÑÐ´Ð¸Ð½Ð¾Ðº Ð¼ÐµÑÐ° Ð¢Ð¾Ð¼Ð°ÑÐ° Ð¤ÑÐ»Ð»ÑÐ¿ÑÐ° Ð·Ð½Ð°ÑÐ¾Ð´Ð¸Ð²ÑÑ Ð²Ð½Ð¸Ð·Ñ Stow Hill, Ð½Ð°Ð²Ð¿ÑÐ¾ÑÐ¸ Ð³Ð¾ÑÐµÐ»Ñ ÐÐµÑÑÐ³ÐµÐ¹Ñ. ÐÐ¾ÑÐ°Ð½ÐµÐ½Ð¸Ð¹ Ð¿ÑÐ´ ÑÐ°Ñ Ð½Ð°Ð¿Ð°Ð´Ñ Ð½Ð° Ð³Ð¾ÑÐµÐ»Ñ ÐÐµÑÑÐ³ÐµÐ¹Ñ, Ð¤ÑÐ»Ð»ÑÐ¿Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð² Ð»Ð¸ÑÐ°ÑÑÑÐºÐ¸Ð¹ ÑÐ¸ÑÑÐ» Ð·Ð° Ð·Ð°ÑÐ¸ÑÑ Ð²Ð»Ð°Ð´Ð¸ ÐÑ ÐÐµÐ»Ð¸ÑÐ½Ð¾ÑÑÑ.",
+          "description_pa": "à¨®à©à¨à¨° à¨¥à¨¾à¨®à¨¸ à¨«à¨¿à¨²à¨¿à¨ªà¨¸ à¨¦à¨¾ à¨à¨° à¨¸à¨à© à¨¹à¨¿à©±à¨² à¨¦à© à¨¹à©à¨ à¨¾à¨ à¨µà©à¨¸à¨à¨à©à¨ à¨¹à©à¨à¨² à¨¦à© à¨¸à¨¾à¨¹à¨®à¨£à© à¨¸à©à¥¤",
+          "description_ur": "ÙÛØ¦Ø± ØªÚ¾Ø§ÙØ³ ÙÙÙ¾Ø³ Ú©Ø§ Ú¯Ú¾Ø± Ø³Ù¹Ù ÛÙ Ú©Û ÙÛÚÛ ÙÛØ³Ù¹ Ú¯ÛÙ¹ ÛÙÙ¹Ù Ú©Û Ø·Ø±Ù ØªÚ¾Ø§Û",
+          "description_hu": "Thomas Phillips polgÃ¡rmester hÃ¡za a Stow Hill aljÃ¡n volt, szemben a Westgate szÃ¡llodÃ¡val.",
           "lat": 51.5876946,
           "lng": -2.9969585,
           "radiusMetres": 60,
@@ -547,6 +704,40 @@
           ],
           "communityContent": [],
           "credits": "Image: The attack of the Chartists on the Westgate Hotel, 4 November 1839. Contemporary print, public domain, via Wikimedia Commons."
+        },
+        {
+          "number": 22,
+          "title": "Newport Rising Hub",
+          "title_cy": "Newport Rising Hub",
+          "title_pl": "Newport Rising Hub",
+          "title_uk": "Newport Rising Hub",
+          "title_pa": "Newport Rising Hub",
+          "title_ur": "Newport Rising Hub",
+          "title_hu": "Newport Rising Hub",
+          "description": "The Newport Rising Hub on Commercial Street is part community space, part historical interpretation centre. Inside you will find an exhibition of radical history, interactive exhibits including an AI John Frost, Chartist books and merchandise, and a programme of events from talks to live music.",
+          "description_cy": "",
+          "description_pl": "",
+          "description_uk": "",
+          "description_pa": "",
+          "description_ur": "",
+          "description_hu": "",
+          "lat": 51.58731834319051,
+          "lng": -2.9959308929216544,
+          "radiusMetres": 25,
+          "wixUrl": "https://www.newportrising.co.uk",
+          "wixUrl_cy": "https://www.newportrising.co.uk/cy",
+          "audioUrl": "",
+          "audioTranscript": "",
+          "audioTranscript_cy": "",
+          "videoUrl": "",
+          "imageUrls": [
+            "https://static.wixstatic.com/media/a84adb_5592924a74f1400895f7e4543e993438~mv2.jpeg",
+            "https://static.wixstatic.com/media/cb410a_f45af966a5954cb08b840ac82731d19f~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_cddbedfd49614f04a00dd8db304410da~mv2.png",
+            "https://static.wixstatic.com/media/cb410a_c2af44486caf46e5bf64850396165209~mv2.png"
+          ],
+          "communityContent": [],
+          "credits": "Images: © Newport Rising."
         }
       ]
     }
