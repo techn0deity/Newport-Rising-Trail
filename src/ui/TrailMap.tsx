@@ -55,7 +55,9 @@ export default function TrailMap({ stops, lang = "en" }: { stops: TrailStop[]; l
         sources: {
           protomaps: {
             type: "vector",
-            url: "pmtiles:///newport.pmtiles",
+            // Served from Cloudflare R2, not Pages: Pages cannot do HTTP
+            // byte serving, which PMTiles depends on.
+            url: "pmtiles://https://pub-9c02976ca0004da69a10b0e066ed5a74.r2.dev/newport.pmtiles",
             attribution:
               '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors, tiles by <a href="https://protomaps.com" target="_blank" rel="noreferrer">Protomaps</a>',
           },
