@@ -397,7 +397,7 @@
           "communityContent": [],
           "credits": ""
         },
-               {
+                       {
           "number": 16,
           "title": "St. Woolos Square",
           "title_cy": "Sgwâr Sant Woolos",
@@ -416,16 +416,18 @@
           "audioTranscript_cy": "",
           "videoUrl": "https://youtu.be/pkfk5lkvJ0g",
           "imageUrls": [
-            "https://static.wixstatic.com/media/cb410a_698667b9e7534ba4bf6816a274a4d961~mv2.jpg"
+            "https://static.wixstatic.com/media/cb410a_698667b9e7534ba4bf6816a274a4d961~mv2.jpg",
+            "https://static.wixstatic.com/media/cb410a_0ae6f8d486674e1fadd168342ce6aeee~mv2.jpeg",
+            "https://static.wixstatic.com/media/cb410a_c6f8cd58d9894bc18d2a67921c6cff68~mv2.jpeg"
           ],
           "communityContent": [
             {
               "imageUrl": "https://static.wixstatic.com/media/cb410a_ddd4a8b6800347be96224a7ca579c8f9~mv2.png"
             }
           ],
-          "credits": "Image: © Newport Rising."
+          "credits": "Images: © Newport Rising."
         },
-        {
+               {
           "number": 17,
           "title": "The Six Bells",
           "title_cy": "Y Chwech Cloch",
@@ -443,9 +445,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_3861bcb6bb844a229f2ac4fb6b18ee38~mv2.jpeg"
+          ],
           "communityContent": [],
-          "credits": ""
+          "credits": "Image: © Newport Rising."
         },
                {
           "number": 18,
@@ -472,7 +476,7 @@
           "communityContent": [],
           "credits": "Images: Newport Cathedral by Owain, via Wikimedia Commons, CC BY-SA 2.5 (creativecommons.org/licenses/by-sa/2.5). Chartist memorial stone: © Newport Rising."
         },
-        {
+               {
           "number": 19,
           "title": "Cross House",
           "title_cy": "Tŷ'r Groes",
@@ -490,9 +494,11 @@
           "audioTranscript": "",
           "audioTranscript_cy": "",
           "videoUrl": "",
-          "imageUrls": [],
+          "imageUrls": [
+            "https://static.wixstatic.com/media/cb410a_c2a377693255457fbc5de95b619dd242~mv2.jpeg"
+          ],
           "communityContent": [],
-          "credits": ""
+          "credits": "Image: © Newport Rising."
         },
                {
           "number": 20,
