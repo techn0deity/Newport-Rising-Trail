@@ -6,6 +6,7 @@ import WelcomePage from "./pages/WelcomePage";
 import { TrailPage } from "./pages/TrailPage";
 import StopPage from "./pages/StopPage";
 import NearbyPage from "./pages/NearbyPage";
+import ListenPage from "./pages/ListenPage";
 import CommunityPage from "./pages/CommunityPage";
 import AboutPage from "./pages/AboutPage";
 import SupportPage from "./pages/SupportPage";
@@ -210,6 +211,7 @@ export default function App() {
             <Route path="/" element={<WelcomePage lang={settings.lang} />} />
             <Route path="/trail" element={<TrailPage lang={settings.lang} />} />
             <Route path="/stop/:number" element={<StopPage lang={settings.lang} />} />
+            <Route path="/listen" element={<ListenPage lang={settings.lang} />} />
             <Route path="/nearby" element={<NearbyPage lang={settings.lang} />} />
             <Route path="/community" element={<CommunityPage lang={settings.lang} />} />
             <Route path="/about" element={<AboutPage lang={settings.lang} />} />

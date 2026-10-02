@@ -44,6 +44,9 @@ supportedBy: string;
   // Stop page
   images: string;
   imagesComingSoon: string;
+  listenTitle: string;
+  listenIntro: string;
+  nowPlaying: string;
   audioGuide: string;
   narratedBy: string;
   audio: string;
@@ -128,6 +131,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Showing",
     images: "Images",
     imagesComingSoon: "Images coming soon",
+    listenTitle: "Listen to the Trail",
+    listenIntro: "Play the whole trail in order. Each stop continues automatically, so you can pocket your phone and walk.",
+    nowPlaying: "Now playing",
     audioGuide: "Audio Guide",
     narratedBy: "Narrated by",
     audio: "Audio",
@@ -203,6 +209,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Yn dangos",
     images: "Delweddau",
     imagesComingSoon: "Delweddau yn dod yn fuan",
+    listenTitle: "Gwrandewch ar y Llwybr",
+    listenIntro: "Chwaraewch y llwybr cyfan yn ei drefn. Mae pob safle'n parhau'n awtomatig, felly gallwch roi eich ffôn yn eich poced a cherdded.",
+    nowPlaying: "Yn chwarae nawr",
     audioGuide: "Canllaw Sain",
     narratedBy: "Adroddwyd gan",
     audio: "Sain",
@@ -278,6 +287,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Wyświetlanie",
     images: "Zdjęcia",
     imagesComingSoon: "Zdjęcia wkrótce",
+    listenTitle: "Posłuchaj szlaku",
+    listenIntro: "Odtwórz cały szlak po kolei. Każdy przystanek odtwarza się automatycznie, więc możesz schować telefon i iść.",
+    nowPlaying: "Teraz odtwarzane",
     audioGuide: "Przewodnik audio",
     narratedBy: "Czyta",
     audio: "Audio",
@@ -353,6 +365,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Показано",
     images: "Зображення",
     imagesComingSoon: "Зображення незабаром",
+    listenTitle: "Послухати маршрут",
+    listenIntro: "Прослухайте весь маршрут по порядку. Кожна зупинка продовжується автоматично, тож можна сховати телефон і йти.",
+    nowPlaying: "Зараз відтворюється",
     audioGuide: "Аудіогід",
     narratedBy: "Читає",
     audio: "Аудіо",
@@ -428,6 +443,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "ਦਿਖਾ ਰਿਹਾ ਹੈ",
     images: "ਤਸਵੀਰਾਂ",
     imagesComingSoon: "ਤਸਵੀਰਾਂ ਜਲਦੀ ਆ ਰਹੀਆਂ ਹਨ",
+    listenTitle: "ਟ੍ਰੇਲ ਸੁਣੋ",
+    listenIntro: "ਪੂਰੀ ਟ੍ਰੇਲ ਕ੍ਰਮ ਵਿੱਚ ਸੁਣੋ। ਹਰ ਸਟਾਪ ਆਪਣੇ ਆਪ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਸੀਂ ਫ਼ੋਨ ਜੇਬ ਵਿੱਚ ਰੱਖ ਕੇ ਤੁਰ ਸਕਦੇ ਹੋ।",
+    nowPlaying: "ਹੁਣ ਚੱਲ ਰਿਹਾ ਹੈ",
     audioGuide: "ਆਡੀਓ ਗਾਈਡ",
     narratedBy: "ਆਵਾਜ਼",
     audio: "ਆਡੀਓ",
@@ -503,6 +521,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "دکھا رہا ہے",
     images: "تصاویر",
     imagesComingSoon: "تصاویر جلد آ رہی ہیں",
+    listenTitle: "ٹریل سنیں",
+    listenIntro: "پوری ٹریل ترتیب سے سنیں۔ ہر اسٹاپ خود بخود جاری رہتا ہے، اس لیے آپ فون جیب میں رکھ کر چل سکتے ہیں۔",
+    nowPlaying: "اب چل رہا ہے",
     audioGuide: "آڈیو گائیڈ",
     narratedBy: "آواز",
     audio: "آڈیو",
@@ -578,6 +599,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Megjelenítve",
     images: "Képek",
     imagesComingSoon: "Képek hamarosan",
+    listenTitle: "Hallgassa meg az ösvényt",
+    listenIntro: "Hallgassa végig az ösvényt sorrendben. Minden megálló automatikusan folytatódik, így zsebre teheti a telefont és sétálhat.",
+    nowPlaying: "Most játszik",
     audioGuide: "Hangos idegenvezetés",
     narratedBy: "Felolvassa",
     audio: "Hang",

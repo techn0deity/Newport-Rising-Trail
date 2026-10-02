@@ -112,6 +112,24 @@ export default function WelcomePage({ lang }: { lang: Lang }) {
             </button>
           </Link>
 
+          <Link to="/listen" style={{ textDecoration: "none" }}>
+            <button style={{ 
+              width: "100%", 
+              background: "#ffffff", 
+              color: "#000000", 
+              border: "4px solid #000000", 
+              padding: "16px 24px", 
+              fontSize: 16, 
+              fontWeight: "900", 
+              cursor: "pointer", 
+              borderRadius: 0,
+              textTransform: "uppercase",
+              letterSpacing: "1px",
+            }}>
+              🎧 {t(lang, "listenTitle")}
+            </button>
+          </Link>
+
           {/* Nearby Stops - White background to match others */}
           <Link to="/nearby" style={{ textDecoration: "none" }}>
             <button style={{ 
