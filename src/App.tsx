@@ -7,6 +7,7 @@ import { TrailPage } from "./pages/TrailPage";
 import StopPage from "./pages/StopPage";
 import NearbyPage from "./pages/NearbyPage";
 import ListenPage from "./pages/ListenPage";
+import NearbyPrompt from "./ui/NearbyPrompt";
 import CommunityPage from "./pages/CommunityPage";
 import AboutPage from "./pages/AboutPage";
 import SupportPage from "./pages/SupportPage";
@@ -205,6 +206,8 @@ export default function App() {
             }}
           />
         )}
+
+        <NearbyPrompt lang={settings.lang} />
 
         <main>
           <Routes>

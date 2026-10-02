@@ -44,6 +44,9 @@ supportedBy: string;
   // Stop page
   images: string;
   imagesComingSoon: string;
+  youAreHere: string;
+  openStop: string;
+  dismiss: string;
   listenTitle: string;
   listenIntro: string;
   nowPlaying: string;
@@ -131,6 +134,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Showing",
     images: "Images",
     imagesComingSoon: "Images coming soon",
+    youAreHere: "You're near",
+    openStop: "Open",
+    dismiss: "Dismiss",
     listenTitle: "Listen to the Trail",
     listenIntro: "Play the whole trail in order. Each stop continues automatically, so you can pocket your phone and walk.",
     nowPlaying: "Now playing",
@@ -209,6 +215,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Yn dangos",
     images: "Delweddau",
     imagesComingSoon: "Delweddau yn dod yn fuan",
+    youAreHere: "Rydych chi ger",
+    openStop: "Agor",
+    dismiss: "Cau",
     listenTitle: "Gwrandewch ar y Llwybr",
     listenIntro: "Chwaraewch y llwybr cyfan yn ei drefn. Mae pob safle'n parhau'n awtomatig, felly gallwch roi eich ffôn yn eich poced a cherdded.",
     nowPlaying: "Yn chwarae nawr",
@@ -287,6 +296,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Wyświetlanie",
     images: "Zdjęcia",
     imagesComingSoon: "Zdjęcia wkrótce",
+    youAreHere: "Jesteś blisko",
+    openStop: "Otwórz",
+    dismiss: "Zamknij",
     listenTitle: "Posłuchaj szlaku",
     listenIntro: "Odtwórz cały szlak po kolei. Każdy przystanek odtwarza się automatycznie, więc możesz schować telefon i iść.",
     nowPlaying: "Teraz odtwarzane",
@@ -365,6 +377,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Показано",
     images: "Зображення",
     imagesComingSoon: "Зображення незабаром",
+    youAreHere: "Ви поруч із",
+    openStop: "Відкрити",
+    dismiss: "Закрити",
     listenTitle: "Послухати маршрут",
     listenIntro: "Прослухайте весь маршрут по порядку. Кожна зупинка продовжується автоматично, тож можна сховати телефон і йти.",
     nowPlaying: "Зараз відтворюється",
@@ -443,6 +458,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "ਦਿਖਾ ਰਿਹਾ ਹੈ",
     images: "ਤਸਵੀਰਾਂ",
     imagesComingSoon: "ਤਸਵੀਰਾਂ ਜਲਦੀ ਆ ਰਹੀਆਂ ਹਨ",
+    youAreHere: "ਤੁਸੀਂ ਨੇੜੇ ਹੋ",
+    openStop: "ਖੋਲ੍ਹੋ",
+    dismiss: "ਬੰਦ ਕਰੋ",
     listenTitle: "ਟ੍ਰੇਲ ਸੁਣੋ",
     listenIntro: "ਪੂਰੀ ਟ੍ਰੇਲ ਕ੍ਰਮ ਵਿੱਚ ਸੁਣੋ। ਹਰ ਸਟਾਪ ਆਪਣੇ ਆਪ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਸੀਂ ਫ਼ੋਨ ਜੇਬ ਵਿੱਚ ਰੱਖ ਕੇ ਤੁਰ ਸਕਦੇ ਹੋ।",
     nowPlaying: "ਹੁਣ ਚੱਲ ਰਿਹਾ ਹੈ",
@@ -521,6 +539,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "دکھا رہا ہے",
     images: "تصاویر",
     imagesComingSoon: "تصاویر جلد آ رہی ہیں",
+    youAreHere: "آپ قریب ہیں",
+    openStop: "کھولیں",
+    dismiss: "بند کریں",
     listenTitle: "ٹریل سنیں",
     listenIntro: "پوری ٹریل ترتیب سے سنیں۔ ہر اسٹاپ خود بخود جاری رہتا ہے، اس لیے آپ فون جیب میں رکھ کر چل سکتے ہیں۔",
     nowPlaying: "اب چل رہا ہے",
@@ -599,6 +620,9 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Megjelenítve",
     images: "Képek",
     imagesComingSoon: "Képek hamarosan",
+    youAreHere: "Ön a közelben van",
+    openStop: "Megnyitás",
+    dismiss: "Bezárás",
     listenTitle: "Hallgassa meg az ösvényt",
     listenIntro: "Hallgassa végig az ösvényt sorrendben. Minden megálló automatikusan folytatódik, így zsebre teheti a telefont és sétálhat.",
     nowPlaying: "Most játszik",
