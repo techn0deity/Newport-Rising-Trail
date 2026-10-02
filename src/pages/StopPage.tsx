@@ -269,6 +269,13 @@ export default function StopPage({ lang }: { lang: Lang }) {
   const youTubeUrl = stop.videoUrl ? youTubeEmbedUrl(stop.videoUrl) : null;
   const isDirectVideo = !!stop.videoUrl && !youTubeUrl && /\.(mp4|webm|ogg|mov)(\?|$)/i.test(stop.videoUrl);
 
+  // The main narration: the heritage reading for this stop. Welsh when we
+  // have it, English otherwise - every other language falls back to English.
+  const narrationUrl =
+    lang === "cy" && stop.narrationUrl_cy && stop.narrationUrl_cy.length > 0
+      ? stop.narrationUrl_cy
+      : stop.narrationUrl;
+
   const hasAudioFiles = stop.audioFiles && stop.audioFiles.length > 0;
   const hasLegacyAudio = stop.audioUrl && stop.audioUrl.length > 0;
 
@@ -305,6 +312,26 @@ export default function StopPage({ lang }: { lang: Lang }) {
             {description}
           </p>
         </div>
+
+        {/* Audio guide - the main narration, given top billing */}
+        {narrationUrl && (
+          <div style={{ background: "#000000", border: "3px solid #000000", borderRadius: 12, padding: 20, marginBottom: 16 }}>
+            <h2 style={{ margin: "0 0 4px 0", fontSize: 18, color: "#ede532", textTransform: "uppercase", letterSpacing: "1px" }}>
+              {t(lang, "audioGuide")}
+            </h2>
+            {trail.narrator && (
+              <p style={{ margin: "0 0 14px 0", fontSize: 13, color: "#ede532", opacity: 0.75 }}>
+                {t(lang, "narratedBy")} {trail.narrator}
+              </p>
+            )}
+            <audio
+              controls
+              preload="metadata"
+              src={narrationUrl}
+              style={{ width: "100%", display: "block" }}
+            />
+          </div>
+        )}
 
         {/* Images section */}
         <div style={{ background: "#ffffff", border: "3px solid #000000", borderRadius: 12, padding: 20, marginBottom: 16 }}>

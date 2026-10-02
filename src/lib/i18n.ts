@@ -44,6 +44,8 @@ supportedBy: string;
   // Stop page
   images: string;
   imagesComingSoon: string;
+  audioGuide: string;
+  narratedBy: string;
   audio: string;
   audioComingSoon: string;
   video: string;
@@ -126,6 +128,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Showing",
     images: "Images",
     imagesComingSoon: "Images coming soon",
+    audioGuide: "Audio Guide",
+    narratedBy: "Narrated by",
     audio: "Audio",
     audioComingSoon: "Audio coming soon",
     video: "Video",
@@ -199,6 +203,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Yn dangos",
     images: "Delweddau",
     imagesComingSoon: "Delweddau yn dod yn fuan",
+    audioGuide: "Canllaw Sain",
+    narratedBy: "Adroddwyd gan",
     audio: "Sain",
     audioComingSoon: "Sain yn dod yn fuan",
     video: "Fideo",
@@ -272,6 +278,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Wyświetlanie",
     images: "Zdjęcia",
     imagesComingSoon: "Zdjęcia wkrótce",
+    audioGuide: "Przewodnik audio",
+    narratedBy: "Czyta",
     audio: "Audio",
     audioComingSoon: "Audio wkrótce",
     video: "Wideo",
@@ -345,6 +353,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Показано",
     images: "Зображення",
     imagesComingSoon: "Зображення незабаром",
+    audioGuide: "Аудіогід",
+    narratedBy: "Читає",
     audio: "Аудіо",
     audioComingSoon: "Аудіо незабаром",
     video: "Відео",
@@ -418,6 +428,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "ਦਿਖਾ ਰਿਹਾ ਹੈ",
     images: "ਤਸਵੀਰਾਂ",
     imagesComingSoon: "ਤਸਵੀਰਾਂ ਜਲਦੀ ਆ ਰਹੀਆਂ ਹਨ",
+    audioGuide: "ਆਡੀਓ ਗਾਈਡ",
+    narratedBy: "ਆਵਾਜ਼",
     audio: "ਆਡੀਓ",
     audioComingSoon: "ਆਡੀਓ ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
     video: "ਵੀਡੀਓ",
@@ -491,6 +503,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "دکھا رہا ہے",
     images: "تصاویر",
     imagesComingSoon: "تصاویر جلد آ رہی ہیں",
+    audioGuide: "آڈیو گائیڈ",
+    narratedBy: "آواز",
     audio: "آڈیو",
     audioComingSoon: "آڈیو جلد آ رہا ہے",
     video: "ویڈیو",
@@ -564,6 +578,8 @@ const translations: Record<Lang, TranslationKeys> = {
     showingStops: "Megjelenítve",
     images: "Képek",
     imagesComingSoon: "Képek hamarosan",
+    audioGuide: "Hangos idegenvezetés",
+    narratedBy: "Felolvassa",
     audio: "Hang",
     audioComingSoon: "Hang hamarosan",
     video: "Videó",

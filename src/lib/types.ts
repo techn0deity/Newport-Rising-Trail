@@ -13,6 +13,8 @@ export type TrailStop = {
   wixUrl: string;
   wixUrl_cy?: string;
   audioUrl?: string;
+  narrationUrl?: string;
+  narrationUrl_cy?: string;
   audioTranscript?: string;
   audioTranscript_cy?: string;
   audioFiles?: {
@@ -38,6 +40,7 @@ export type Trail = {
   id: string;
   title: string;
   title_cy?: string;
+  narrator?: string;
   nearbyRadiusMetres: number;
   stops: TrailStop[];
 };
