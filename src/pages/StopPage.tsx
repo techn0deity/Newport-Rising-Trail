@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import type React from "react";
 import type { Lang } from "../lib/types";
 import { useTrail } from "../state/useTrail";
 import { t } from "../lib/i18n";
@@ -196,6 +197,16 @@ const descriptions: Record<number, Record<Lang, string>> = {
   }
 };
 
+// Only one recording should play at a time. A stop can carry the narration,
+// extra interviews and a video, and hearing two at once is miserable.
+function pauseOthers(e: React.SyntheticEvent<HTMLMediaElement>) {
+  const started = e.currentTarget;
+  document.querySelectorAll("audio, video").forEach((el) => {
+    const media = el as HTMLMediaElement;
+    if (media !== started && !media.paused) media.pause();
+  });
+}
+
 function getStopTitle(stop: any, lang: Lang): string {
   if (lang === "en") return stop.title;
   const key = "title_" + lang;
@@ -328,6 +339,7 @@ export default function StopPage({ lang }: { lang: Lang }) {
               controls
               preload="metadata"
               src={narrationUrl}
+              onPlay={pauseOthers}
               style={{ width: "100%", display: "block" }}
             />
           </div>
@@ -362,12 +374,12 @@ export default function StopPage({ lang }: { lang: Lang }) {
                       {lang === "cy" && audio.description_cy ? audio.description_cy : audio.description}
                     </p>
                   )}
-                  <audio controls src={audio.url} style={{ width: "100%" }} />
+                  <audio controls src={audio.url} onPlay={pauseOthers} style={{ width: "100%" }} />
                 </div>
               ))}
             </div>
           ) : hasLegacyAudio ? (
-            <audio controls src={stop.audioUrl} style={{ width: "100%" }} />
+            <audio controls src={stop.audioUrl} onPlay={pauseOthers} style={{ width: "100%" }} />
           ) : (
             <p style={{ margin: 0, color: "#666666", fontSize: 15 }}>{t(lang, "audioComingSoon")}</p>
           )}
@@ -392,6 +404,7 @@ export default function StopPage({ lang }: { lang: Lang }) {
               preload="metadata"
               playsInline
               src={stop.videoUrl}
+              onPlay={pauseOthers}
               style={{ width: "100%", borderRadius: 8, border: "2px solid #000000", background: "#000000", display: "block" }}
             />
           ) : stop.videoUrl ? (

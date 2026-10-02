@@ -60,10 +60,13 @@ export default defineConfig({
           {
             // Photographs and audio hosted on Wix. These never change
             // once uploaded, so serve from cache and save the data.
-            urlPattern: /^https:\/\/(static|video)\.wixstatic\.com\/.*$/,
+            // Images ONLY. Audio and video are streamed in chunks, which
+            // caching breaks, and they are far too large to sit on a phone.
+            // (This exclusion has been lost twice now - do not widen it.)
+            urlPattern: /^https:\/\/static\.wixstatic\.com\/media\/.*$/,
             handler: "CacheFirst",
             options: {
-              cacheName: "trail-media",
+              cacheName: "trail-images",
               expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 60 },
               cacheableResponse: { statuses: [0, 200] },
               rangeRequests: true,
