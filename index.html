@@ -37,5 +37,13 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Cloudflare Web Analytics: no cookies, no personal data, so no
+         consent banner needed. The token is public by design. -->
+    <script
+      type="module"
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "3832565272b642159ebc9216dd13803f"}'
+    ></script>
   </body>
 </html>
