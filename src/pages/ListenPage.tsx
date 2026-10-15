@@ -50,6 +50,13 @@ export default function ListenPage({ lang }: { lang: Lang }) {
   const stops: TrailStop[] = (trail?.stops ?? []).filter((s) => narrationFor(s, lang));
   const current = stops[index];
   const currentSrc = current ? narrationFor(current, lang) : undefined;
+  // Credit whoever reads the recording actually playing: the Welsh readings
+  // have their own narrator.
+  const narrator = !current
+    ? undefined
+    : currentSrc === current.narrationUrl
+      ? trail?.narrator
+      : trail?.narrator_cy;
 
   // Pick up where they left off, once the data has arrived.
   useEffect(() => {
@@ -92,7 +99,7 @@ export default function ListenPage({ lang }: { lang: Lang }) {
 
     navigator.mediaSession.metadata = new MediaMetadata({
       title: current.number + ". " + getStopTitle(current, lang),
-      artist: trail.narrator || "",
+      artist: narrator || "",
       album: lang === "cy" && trail.title_cy ? trail.title_cy : trail.title,
       artwork: [
         { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
@@ -120,7 +127,7 @@ export default function ListenPage({ lang }: { lang: Lang }) {
       set("nexttrack", null);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current, index, stops.length, lang, trail]);
+  }, [current, index, stops.length, lang, trail, narrator]);
 
   function go(next: number, autoplay = true) {
     if (next < 0 || next >= stops.length) return;
@@ -355,9 +362,9 @@ export default function ListenPage({ lang }: { lang: Lang }) {
               </button>
             </div>
 
-            {trail.narrator && (
+            {narrator && (
               <p style={{ margin: "8px 0 0 0", fontSize: 11, color: "#ede532", opacity: 0.6 }}>
-                {t(lang, "narratedBy")} {trail.narrator}
+                {t(lang, "narratedBy")} {narrator}
               </p>
             )}
           </div>
