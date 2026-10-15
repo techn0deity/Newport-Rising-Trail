@@ -287,6 +287,11 @@ export default function StopPage({ lang }: { lang: Lang }) {
       ? stop.narrationUrl_cy
       : stop.narrationUrl;
 
+  // Credit whoever reads the recording actually being played. The Welsh
+  // readings have their own narrator, and no name is shown until one is set.
+  const narrator =
+    narrationUrl === stop.narrationUrl ? trail.narrator : trail.narrator_cy;
+
   const hasAudioFiles = stop.audioFiles && stop.audioFiles.length > 0;
   const hasLegacyAudio = stop.audioUrl && stop.audioUrl.length > 0;
 
@@ -330,9 +335,9 @@ export default function StopPage({ lang }: { lang: Lang }) {
             <h2 style={{ margin: "0 0 4px 0", fontSize: 18, color: "#ede532", textTransform: "uppercase", letterSpacing: "1px" }}>
               {t(lang, "audioGuide")}
             </h2>
-            {trail.narrator && (
+            {narrator && (
               <p style={{ margin: "0 0 14px 0", fontSize: 13, color: "#ede532", opacity: 0.75 }}>
-                {t(lang, "narratedBy")} {trail.narrator}
+                {t(lang, "narratedBy")} {narrator}
               </p>
             )}
             <audio

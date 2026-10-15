@@ -41,6 +41,7 @@ export type Trail = {
   title: string;
   title_cy?: string;
   narrator?: string;
+  narrator_cy?: string;
   nearbyRadiusMetres: number;
   stops: TrailStop[];
 };
