@@ -49,14 +49,28 @@ export type Trail = {
 // The Chartist Ale Trail: a short, separate walk of five ceramic markers on
 // pubs and former pubs. Venue names and addresses stay in English in every
 // language, as the credits field does - they are proper nouns on a street sign.
+export type AleTrailVenue = {
+  name: string;
+  address: string;
+  note?: string;
+  lat: number;
+  lng: number;
+  // The Carpenters Arms and the Murenger are also stops on the main trail.
+  // Where a venue is, we link through to the stop rather than repeat it.
+  stopNumber?: number;
+  description?: string;
+  description_cy?: string;
+  description_pl?: string;
+  description_uk?: string;
+  description_pa?: string;
+  description_ur?: string;
+  description_hu?: string;
+};
+
 export type AleTrail = {
   enabled: boolean;
   url: string;
-  venues: {
-    name: string;
-    address: string;
-    note?: string;
-  }[];
+  venues: AleTrailVenue[];
 };
 
 export type TrailResponse = {

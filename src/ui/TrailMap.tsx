@@ -10,7 +10,9 @@ import type { Lang } from "../lib/types";
 // a single static archive served from our own domain, so there is no tile
 // server to depend on and nobody who can rate-limit or block us.
 let protocolRegistered = false;
-function registerPmtilesProtocol() {
+// Exported so the ale trail's own map shares one registration and one cache
+// rather than registering the protocol a second time.
+export function registerPmtilesProtocol() {
   if (protocolRegistered) return;
   const protocol = new Protocol();
   maplibregl.addProtocol("pmtiles", protocol.tile);

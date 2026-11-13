@@ -3,11 +3,44 @@
     "enabled": true,
     "url": "https://www.newportrising.co.uk/chartist-ale-trail",
     "venues": [
-      { "name": "The Carpenters Arms", "address": "9 High Street" },
-      { "name": "Ye Olde Murenger House", "address": "52-53 High Street" },
-      { "name": "Low and Slow", "address": "22-23 High Street", "note": "Formerly a pub" },
-      { "name": "The Potters", "address": "22-24 Upper Dock Street" },
-      { "name": "The Red Lion", "address": "47 Stow Hill" }
+      {
+        "name": "The Carpenters Arms",
+        "address": "9 High Street",
+        "lat": 51.589697,
+        "lng": -2.996765,
+        "stopNumber": 6,
+        "description": "On Saturday 2 November 1839, two days before the Rising, a young Chartist messenger from Bradford stayed here overnight. He had been to Blackwood to ask John Frost to postpone the march, because the Yorkshire Chartists were not ready to rise. Frost refused."
+      },
+      {
+        "name": "Ye Olde Murenger House",
+        "address": "52-53 High Street",
+        "lat": 51.589388,
+        "lng": -2.997319,
+        "stopNumber": 5,
+        "description": "John Frost was one of the owners of this building, which dates from 1533 and was once home to the High Sheriff of Monmouthshire. Frost's draper's shop stood on the same side of High Street."
+      },
+      {
+        "name": "Low and Slow",
+        "address": "22-23 High Street",
+        "note": "Formerly a pub",
+        "lat": 51.5896,
+        "lng": -2.996937,
+        "description": "High Street was Frost's home ground. He and his wife raised their family above the shop here, and Henry Vincent once led 300 women along the street in an impromptu procession. The marker went up when the building housed Tiny Rebel's bar. Newport Market is next door."
+      },
+      {
+        "name": "The Potters",
+        "address": "22-24 Upper Dock Street",
+        "lat": 51.58779,
+        "lng": -2.995015,
+        "description": "By one account Frost took refuge in Friars Fields, the crowded district close by, before his arrest that evening with three loaded pistols in his pockets. The pub stands beside Friars Walk, and there is a scene from the Rising in the window facing the bus station."
+      },
+      {
+        "name": "The Red Lion",
+        "address": "47 Stow Hill",
+        "lat": 51.5853,
+        "lng": -2.99682,
+        "description": "On the morning of the Rising the Chartists marched down this hill, reaching the Westgate at about half past nine. When the soldiers opened fire, those at the back of the column fled back up Stow Hill, dropping their weapons as they ran."
+      }
     ]
   },
   "trails": [

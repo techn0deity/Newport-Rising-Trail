@@ -56,6 +56,7 @@ supportedBy: string;
   aleTrailMarkerHint: string;
   aleTrailDirections: string;
   aleTrailMore: string;
+  aleTrailAlsoStop: string;
   listenTitle: string;
   listenIntro: string;
   nowPlaying: string;
@@ -156,6 +157,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "Look up for the ceramic marker on the wall.",
     aleTrailDirections: "Directions",
     aleTrailMore: "Read the full story",
+    aleTrailAlsoStop: "Also on the main trail",
     listenTitle: "Listen to the Trail",
     listenIntro: "Play the whole trail in order. Each stop continues automatically, so you can pocket your phone and walk.",
     nowPlaying: "Now playing",
@@ -247,6 +249,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "Edrychwch i fyny am y marc cerameg ar y wal.",
     aleTrailDirections: "Cyfarwyddiadau",
     aleTrailMore: "Darllenwch yr hanes llawn",
+    aleTrailAlsoStop: "Hefyd ar y prif lwybr",
     listenTitle: "Gwrandewch ar y Llwybr",
     listenIntro: "Chwaraewch y llwybr cyfan yn ei drefn. Mae pob safle'n parhau'n awtomatig, felly gallwch roi eich ffôn yn eich poced a cherdded.",
     nowPlaying: "Yn chwarae nawr",
@@ -338,6 +341,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "Poszukaj ceramicznej tablicy na ścianie.",
     aleTrailDirections: "Wskazówki",
     aleTrailMore: "Przeczytaj całą historię",
+    aleTrailAlsoStop: "Również na głównym szlaku",
     listenTitle: "Posłuchaj szlaku",
     listenIntro: "Odtwórz cały szlak po kolei. Każdy przystanek odtwarza się automatycznie, więc możesz schować telefon i iść.",
     nowPlaying: "Teraz odtwarzane",
@@ -429,6 +433,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "Подивіться вгору - керамічний знак на стіні.",
     aleTrailDirections: "Маршрут",
     aleTrailMore: "Читати повну історію",
+    aleTrailAlsoStop: "Також на головному маршруті",
     listenTitle: "Послухати маршрут",
     listenIntro: "Прослухайте весь маршрут по порядку. Кожна зупинка продовжується автоматично, тож можна сховати телефон і йти.",
     nowPlaying: "Зараз відтворюється",
@@ -520,6 +525,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "ਦੀਵਾਰ ਉੱਤੇ ਸਿਰਾਮਿਕ ਨਿਸ਼ਾਨ ਲਈ ਉੱਪਰ ਦੇਖੋ।",
     aleTrailDirections: "ਰਸਤਾ",
     aleTrailMore: "ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੋ",
+    aleTrailAlsoStop: "ਮੁੱਖ ਰਸਤੇ ਉੱਤੇ ਵੀ",
     listenTitle: "ਟ੍ਰੇਲ ਸੁਣੋ",
     listenIntro: "ਪੂਰੀ ਟ੍ਰੇਲ ਕ੍ਰਮ ਵਿੱਚ ਸੁਣੋ। ਹਰ ਸਟਾਪ ਆਪਣੇ ਆਪ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਸੀਂ ਫ਼ੋਨ ਜੇਬ ਵਿੱਚ ਰੱਖ ਕੇ ਤੁਰ ਸਕਦੇ ਹੋ।",
     nowPlaying: "ਹੁਣ ਚੱਲ ਰਿਹਾ ਹੈ",
@@ -611,6 +617,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "دیوار پر سیرامک نشان کے لیے اوپر دیکھیں۔",
     aleTrailDirections: "راستہ",
     aleTrailMore: "پوری کہانی پڑھیں",
+    aleTrailAlsoStop: "مرکزی راستے پر بھی",
     listenTitle: "ٹریل سنیں",
     listenIntro: "پوری ٹریل ترتیب سے سنیں۔ ہر اسٹاپ خود بخود جاری رہتا ہے، اس لیے آپ فون جیب میں رکھ کر چل سکتے ہیں۔",
     nowPlaying: "اب چل رہا ہے",
@@ -702,6 +709,7 @@ const translations: Record<Lang, TranslationKeys> = {
     aleTrailMarkerHint: "Nézz fel a falon lévő kerámiatáblára.",
     aleTrailDirections: "Útvonal",
     aleTrailMore: "Olvasd el a teljes történetet",
+    aleTrailAlsoStop: "A főútvonalon is",
     listenTitle: "Hallgassa meg az ösvényt",
     listenIntro: "Hallgassa végig az ösvényt sorrendben. Minden megálló automatikusan folytatódik, így zsebre teheti a telefont és sétálhat.",
     nowPlaying: "Most játszik",
