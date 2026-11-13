@@ -51,7 +51,9 @@ export type Trail = {
 // language, as the credits field does - they are proper nouns on a street sign.
 export type AleTrailVenue = {
   name: string;
-  address: string;
+  // Omitted where the building address is itself the name, as at 22-23 High
+  // Street, whose occupant changes but whose ceramic marker does not.
+  address?: string;
   note?: string;
   lat: number;
   lng: number;

@@ -169,17 +169,19 @@ export default function AleTrailPage({ lang }: { lang: Lang }) {
                     >
                       {v.name}
                     </span>
-                    <span
-                      style={{
-                        display: "block",
-                        fontSize: 14,
-                        color: isOpen ? "#ede532" : "#000000",
-                        opacity: isOpen ? 0.8 : 1,
-                        marginTop: 2,
-                      }}
-                    >
-                      {v.address}
-                    </span>
+                    {v.address && (
+                      <span
+                        style={{
+                          display: "block",
+                          fontSize: 14,
+                          color: isOpen ? "#ede532" : "#000000",
+                          opacity: isOpen ? 0.8 : 1,
+                          marginTop: 2,
+                        }}
+                      >
+                        {v.address}
+                      </span>
+                    )}
                     {v.note && (
                       <span
                         style={{

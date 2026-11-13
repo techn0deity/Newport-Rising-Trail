@@ -118,10 +118,17 @@ export default function AleTrailMap({
         '<div style="min-width:160px;">' +
         '<strong style="display:block; font-size:15px; color:#000; line-height:1.3;">' +
         escapeHtml(v.name) +
-        "</strong>" +
-        '<span style="display:block; font-size:13px; color:#000; margin-top:2px;">' +
-        escapeHtml(v.address) +
-        "</span>";
+        "</strong>";
+
+      // Not every marker has a street address: at 22-23 High Street the
+      // building number is the name, so the note carries the occupant.
+      const second = v.address || v.note;
+      if (second) {
+        html +=
+          '<span style="display:block; font-size:13px; color:#000; margin-top:2px;">' +
+          escapeHtml(second) +
+          "</span>";
+      }
 
       // Only the markers that are also main trail stops have a page to open.
       if (v.stopNumber) {
