@@ -46,8 +46,22 @@ export type Trail = {
   stops: TrailStop[];
 };
 
+// The Chartist Ale Trail: a short, separate walk of five ceramic markers on
+// pubs and former pubs. Venue names and addresses stay in English in every
+// language, as the credits field does - they are proper nouns on a street sign.
+export type AleTrail = {
+  enabled: boolean;
+  url: string;
+  venues: {
+    name: string;
+    address: string;
+    note?: string;
+  }[];
+};
+
 export type TrailResponse = {
   trails: Trail[];
+  aleTrail?: AleTrail;
 };
 
 export type Lang = "en" | "cy" | "pl" | "uk" | "pa" | "ur" | "hu";

@@ -7,6 +7,7 @@ import { TrailPage } from "./pages/TrailPage";
 import StopPage from "./pages/StopPage";
 import NearbyPage from "./pages/NearbyPage";
 import ListenPage from "./pages/ListenPage";
+import AleTrailPage from "./pages/AleTrailPage";
 import NearbyPrompt from "./ui/NearbyPrompt";
 import CommunityPage from "./pages/CommunityPage";
 import AboutPage from "./pages/AboutPage";
@@ -219,6 +220,7 @@ export default function App() {
             <Route path="/community" element={<CommunityPage lang={settings.lang} />} />
             <Route path="/about" element={<AboutPage lang={settings.lang} />} />
             <Route path="/support" element={<SupportPage lang={settings.lang} />} />
+            <Route path="/ale-trail" element={<AleTrailPage lang={settings.lang} />} />
           </Routes>
         </main>
 

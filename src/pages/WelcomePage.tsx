@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import type { Lang } from "../lib/types";
 import { t } from "../lib/i18n";
+import { useTrail } from "../state/useTrail";
 import newportCC from "../assets/NEWPORT_CC_LOGO_BLACK.png";
 import heritageFund from "../assets/Welsh_stamp_black_PNG.png";
 
 export default function WelcomePage({ lang }: { lang: Lang }) {
+  // Only to decide whether the ale trail aside appears. The welcome page
+  // still renders in full if this never arrives.
+  const { data } = useTrail();
+  const showAleTrail = data?.aleTrail?.enabled === true;
+
   return (
     <div style={{ padding: 16, background: "#ede532", minHeight: "calc(100vh - 200px)" }}>
       <div style={{ maxWidth: 600, margin: "0 auto" }}>
@@ -203,6 +209,80 @@ export default function WelcomePage({ lang }: { lang: Lang }) {
             </button>
           </Link>
         </div>
+
+        {/* Chartist Ale Trail - deliberately styled as an aside, not a seventh
+            equal button. Most walkers will not be doing it, but it should be
+            findable by the ones who want it. */}
+        {showAleTrail && (
+          <div
+            style={{
+              background: "#ffffff",
+              border: "4px solid #000000",
+              marginBottom: 24,
+            }}
+          >
+            <div
+              style={{
+                background: "#000000",
+                padding: "6px 14px",
+                fontSize: 11,
+                fontWeight: "900",
+                color: "#ede532",
+                textTransform: "uppercase",
+                letterSpacing: "2px",
+              }}
+            >
+              {t(lang, "aleTrailAside")}
+            </div>
+
+            <div style={{ padding: 18 }}>
+              <h2
+                style={{
+                  margin: "0 0 8px 0",
+                  fontSize: 20,
+                  fontWeight: "900",
+                  color: "#000000",
+                  textTransform: "uppercase",
+                  lineHeight: 1.15,
+                  letterSpacing: "1px",
+                }}
+              >
+                🍺 {t(lang, "aleTrailTitle")}
+              </h2>
+
+              <p
+                style={{
+                  margin: "0 0 14px 0",
+                  fontSize: 15,
+                  color: "#000000",
+                  lineHeight: 1.5,
+                }}
+              >
+                {t(lang, "aleTrailTeaser")}
+              </p>
+
+              <Link to="/ale-trail" style={{ textDecoration: "none" }}>
+                <button
+                  style={{
+                    width: "100%",
+                    background: "#ede532",
+                    color: "#000000",
+                    border: "4px solid #000000",
+                    padding: "14px 20px",
+                    fontSize: 15,
+                    fontWeight: "900",
+                    cursor: "pointer",
+                    borderRadius: 0,
+                    textTransform: "uppercase",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  {t(lang, "aleTrailTitle")} {lang === "ur" ? "←" : "→"}
+                </button>
+              </Link>
+            </div>
+          </div>
+        )}
 
         {/* Sponsor logos */}
         <div style={{ 

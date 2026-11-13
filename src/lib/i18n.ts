@@ -47,6 +47,15 @@ supportedBy: string;
   youAreHere: string;
   openStop: string;
   dismiss: string;
+
+  // Chartist Ale Trail (the sub-trail)
+  aleTrailTitle: string;
+  aleTrailAside: string;
+  aleTrailTeaser: string;
+  aleTrailIntro: string;
+  aleTrailMarkerHint: string;
+  aleTrailDirections: string;
+  aleTrailMore: string;
   listenTitle: string;
   listenIntro: string;
   nowPlaying: string;
@@ -137,6 +146,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "You're near",
     openStop: "Open",
     dismiss: "Dismiss",
+
+    aleTrailTitle: "Chartist Ale Trail",
+    aleTrailAside: "Another trail",
+    aleTrailTeaser:
+      "Five ceramic markers on pubs and former pubs with links to the Rising.",
+    aleTrailIntro:
+      "Five ceramic markers pick out pubs and former pubs connected to the Newport Rising of 4 November 1839. It is a short walk from one end to the other - longer if you stop for a drink.",
+    aleTrailMarkerHint: "Look up for the ceramic marker on the wall.",
+    aleTrailDirections: "Directions",
+    aleTrailMore: "Read the full story",
     listenTitle: "Listen to the Trail",
     listenIntro: "Play the whole trail in order. Each stop continues automatically, so you can pocket your phone and walk.",
     nowPlaying: "Now playing",
@@ -218,6 +237,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "Rydych chi ger",
     openStop: "Agor",
     dismiss: "Cau",
+
+    aleTrailTitle: "Llwybr Cwrw'r Siartwyr",
+    aleTrailAside: "Llwybr arall",
+    aleTrailTeaser:
+      "Pum marc cerameg ar dafarndai a hen dafarndai sy'n gysylltiedig â'r Gwrthryfel.",
+    aleTrailIntro:
+      "Mae pum marc cerameg yn nodi tafarndai a hen dafarndai sy'n gysylltiedig â Gwrthryfel Casnewydd ar 4 Tachwedd 1839. Taith gerdded fer yw hi o un pen i'r llall - yn hirach os byddwch yn aros am ddiod.",
+    aleTrailMarkerHint: "Edrychwch i fyny am y marc cerameg ar y wal.",
+    aleTrailDirections: "Cyfarwyddiadau",
+    aleTrailMore: "Darllenwch yr hanes llawn",
     listenTitle: "Gwrandewch ar y Llwybr",
     listenIntro: "Chwaraewch y llwybr cyfan yn ei drefn. Mae pob safle'n parhau'n awtomatig, felly gallwch roi eich ffôn yn eich poced a cherdded.",
     nowPlaying: "Yn chwarae nawr",
@@ -299,6 +328,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "Jesteś blisko",
     openStop: "Otwórz",
     dismiss: "Zamknij",
+
+    aleTrailTitle: "Chartystowski Szlak Piwny",
+    aleTrailAside: "Inny szlak",
+    aleTrailTeaser:
+      "Pięć ceramicznych tablic na pubach i dawnych pubach związanych z Powstaniem.",
+    aleTrailIntro:
+      "Pięć ceramicznych tablic oznacza puby i dawne puby związane z Powstaniem w Newport z 4 listopada 1839 roku. To krótki spacer z jednego końca na drugi - dłuższy, jeśli zatrzymasz się na drinka.",
+    aleTrailMarkerHint: "Poszukaj ceramicznej tablicy na ścianie.",
+    aleTrailDirections: "Wskazówki",
+    aleTrailMore: "Przeczytaj całą historię",
     listenTitle: "Posłuchaj szlaku",
     listenIntro: "Odtwórz cały szlak po kolei. Każdy przystanek odtwarza się automatycznie, więc możesz schować telefon i iść.",
     nowPlaying: "Teraz odtwarzane",
@@ -380,6 +419,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "Ви поруч із",
     openStop: "Відкрити",
     dismiss: "Закрити",
+
+    aleTrailTitle: "Пивний шлях чартистів",
+    aleTrailAside: "Інший маршрут",
+    aleTrailTeaser:
+      "П'ять керамічних знаків на пабах і колишніх пабах, пов'язаних із Повстанням.",
+    aleTrailIntro:
+      "П'ять керамічних знаків позначають паби та колишні паби, пов'язані з Ньюпортським повстанням 4 листопада 1839 року. Це коротка прогулянка з одного кінця в інший - довша, якщо зупинитися на напій.",
+    aleTrailMarkerHint: "Подивіться вгору - керамічний знак на стіні.",
+    aleTrailDirections: "Маршрут",
+    aleTrailMore: "Читати повну історію",
     listenTitle: "Послухати маршрут",
     listenIntro: "Прослухайте весь маршрут по порядку. Кожна зупинка продовжується автоматично, тож можна сховати телефон і йти.",
     nowPlaying: "Зараз відтворюється",
@@ -461,6 +510,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "ਤੁਸੀਂ ਨੇੜੇ ਹੋ",
     openStop: "ਖੋਲ੍ਹੋ",
     dismiss: "ਬੰਦ ਕਰੋ",
+
+    aleTrailTitle: "ਚਾਰਟਿਸਟ ਏਲ ਟ੍ਰੇਲ",
+    aleTrailAside: "ਇੱਕ ਹੋਰ ਰਸਤਾ",
+    aleTrailTeaser:
+      "ਬਗ਼ਾਵਤ ਨਾਲ ਜੁੜੇ ਪੱਬਾਂ ਅਤੇ ਪੁਰਾਣੇ ਪੱਬਾਂ ਉੱਤੇ ਪੰਜ ਸਿਰਾਮਿਕ ਨਿਸ਼ਾਨ।",
+    aleTrailIntro:
+      "ਪੰਜ ਸਿਰਾਮਿਕ ਨਿਸ਼ਾਨ ਉਹਨਾਂ ਪੱਬਾਂ ਅਤੇ ਪੁਰਾਣੇ ਪੱਬਾਂ ਨੂੰ ਦਰਸਾਉਂਦੇ ਹਨ ਜੋ 4 ਨਵੰਬਰ 1839 ਦੀ ਨਿਊਪੋਰਟ ਬਗ਼ਾਵਤ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹਨ। ਇੱਕ ਸਿਰੇ ਤੋਂ ਦੂਜੇ ਤੱਕ ਥੋੜ੍ਹੀ ਜਿਹੀ ਸੈਰ ਹੈ - ਜੇ ਤੁਸੀਂ ਪੀਣ ਲਈ ਰੁਕੋ ਤਾਂ ਲੰਮੀ।",
+    aleTrailMarkerHint: "ਦੀਵਾਰ ਉੱਤੇ ਸਿਰਾਮਿਕ ਨਿਸ਼ਾਨ ਲਈ ਉੱਪਰ ਦੇਖੋ।",
+    aleTrailDirections: "ਰਸਤਾ",
+    aleTrailMore: "ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੋ",
     listenTitle: "ਟ੍ਰੇਲ ਸੁਣੋ",
     listenIntro: "ਪੂਰੀ ਟ੍ਰੇਲ ਕ੍ਰਮ ਵਿੱਚ ਸੁਣੋ। ਹਰ ਸਟਾਪ ਆਪਣੇ ਆਪ ਜਾਰੀ ਰਹਿੰਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਸੀਂ ਫ਼ੋਨ ਜੇਬ ਵਿੱਚ ਰੱਖ ਕੇ ਤੁਰ ਸਕਦੇ ਹੋ।",
     nowPlaying: "ਹੁਣ ਚੱਲ ਰਿਹਾ ਹੈ",
@@ -542,6 +601,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "آپ قریب ہیں",
     openStop: "کھولیں",
     dismiss: "بند کریں",
+
+    aleTrailTitle: "چارٹسٹ ایل ٹریل",
+    aleTrailAside: "ایک اور راستہ",
+    aleTrailTeaser:
+      "بغاوت سے جڑے پبوں اور پرانے پبوں پر پانچ سیرامک نشان۔",
+    aleTrailIntro:
+      "پانچ سیرامک نشان ان پبوں اور پرانے پبوں کی نشاندہی کرتے ہیں جو 4 نومبر 1839 کی نیوپورٹ بغاوت سے جڑے ہیں۔ ایک سرے سے دوسرے تک مختصر سی چہل قدمی ہے - اگر آپ پینے کے لیے رکیں تو زیادہ لمبی۔",
+    aleTrailMarkerHint: "دیوار پر سیرامک نشان کے لیے اوپر دیکھیں۔",
+    aleTrailDirections: "راستہ",
+    aleTrailMore: "پوری کہانی پڑھیں",
     listenTitle: "ٹریل سنیں",
     listenIntro: "پوری ٹریل ترتیب سے سنیں۔ ہر اسٹاپ خود بخود جاری رہتا ہے، اس لیے آپ فون جیب میں رکھ کر چل سکتے ہیں۔",
     nowPlaying: "اب چل رہا ہے",
@@ -623,6 +692,16 @@ const translations: Record<Lang, TranslationKeys> = {
     youAreHere: "Ön a közelben van",
     openStop: "Megnyitás",
     dismiss: "Bezárás",
+
+    aleTrailTitle: "Chartista Sörút",
+    aleTrailAside: "Egy másik útvonal",
+    aleTrailTeaser:
+      "Öt kerámiatábla a Felkeléshez kötődő pubokon és egykori pubokon.",
+    aleTrailIntro:
+      "Öt kerámiatábla jelöli az 1839. november 4-i newporti felkeléshez kötődő pubokat és egykori pubokat. Rövid séta az egyik végétől a másikig - hosszabb, ha megállsz egy italra.",
+    aleTrailMarkerHint: "Nézz fel a falon lévő kerámiatáblára.",
+    aleTrailDirections: "Útvonal",
+    aleTrailMore: "Olvasd el a teljes történetet",
     listenTitle: "Hallgassa meg az ösvényt",
     listenIntro: "Hallgassa végig az ösvényt sorrendben. Minden megálló automatikusan folytatódik, így zsebre teheti a telefont és sétálhat.",
     nowPlaying: "Most játszik",
